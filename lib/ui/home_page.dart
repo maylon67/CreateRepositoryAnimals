@@ -1,26 +1,32 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
- // const HomePage({ Key? key }) : super(key: key);
-
+  // const HomePage({ Key? key }) : super(key: key);
+final buscaAnimal = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     appBar: AppBar(
-       title: Text("Zoopédia Animais"),
-       backgroundColor: Color(0xFFc6fa0a),
-       titleTextStyle: TextStyle(
-         fontWeight: FontWeight.bold,
-         color: Color(0xFFfa860a)
-       ),
-     ),
-     body: Column(
-       mainAxisAlignment: MainAxisAlignment.center,
-       crossAxisAlignment: CrossAxisAlignment.start,
-       children: [
-         
-       ],
-     ), 
+      appBar: AppBar(
+        title: Text("Wikipédia Animais"),
+        backgroundColor: Color.fromARGB(255, 117, 239, 11),
+        titleTextStyle:
+            TextStyle(fontWeight: FontWeight.bold, color: Color.fromARGB(255, 255, 255, 255)),
+            centerTitle: true,
+      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          TextField(
+           controller: buscaAnimal,
+          ),
+          ListView(children: <Widget>[ListTile(
+title: Text('Animais Mamiferos'),
+          )
+          ]
+          ),
+        ],
+      ),
     );
   }
 }
