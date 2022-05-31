@@ -1,7 +1,7 @@
 import 'package:app_demo/main.dart';
 import 'package:app_demo/ui/home_page.dart';
 
-class Animal{
+class Animal <String>{
   String pesoAnimal;
   String alturaAnimal;
   String sexoAnimal;
@@ -10,6 +10,7 @@ class Animal{
   String populacaoAnimal;
   String tipoAnimal;
   String tipoAlimentacaoAnimal;
+  String imagemAnimal;
   // aqui incializo as variaveis necessarias pra informa o animal
   Animal(
     this.biomaAnimal,
@@ -19,6 +20,7 @@ class Animal{
     this.nomeAnimal,
     this.alturaAnimal,
     this.tipoAnimal,
-    this.tipoAlimentacaoAnimal
+    this.tipoAlimentacaoAnimal,
+    this.imagemAnimal
   );
 }
