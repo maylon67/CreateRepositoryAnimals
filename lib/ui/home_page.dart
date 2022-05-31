@@ -25,8 +25,9 @@ final buscaAnimal = TextEditingController();
           ),
           ListView.separated( itemBuilder: ( (BuildContext context , int Animal) {
             return ListTile(
-              leading: Image.asset(tabela[Animal].nomeAnimal.toString()),
-              title: Text(tabela[Animal].nomeAnimal),
+              leading: Image.asset(tabela[Animal].imagemAnimal.toString()),
+              title: Text(tabela[Animal].nomeAnimal.toString()),
+              trailing: Text(tabela[Animal].biomaAnimal.toString()),
             );
           }) , itemCount: tabela.length, separatorBuilder: (_, __) => Divider(),
           ),
