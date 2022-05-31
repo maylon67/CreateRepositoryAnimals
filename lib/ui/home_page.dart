@@ -13,26 +13,21 @@ final buscaAnimal = TextEditingController();
         title: Text("Wikipédia Animais"),
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
         titleTextStyle:
-            TextStyle(fontWeight: FontWeight.bold, color: Color.fromARGB(255, 255, 255, 255)),
+            TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
             centerTitle: true,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          TextField(
-           controller: buscaAnimal,
-          ),
+      body: 
           ListView.separated( itemBuilder: ( (BuildContext context , int Animal) {
             return ListTile(
               leading: Image.asset(tabela[Animal].imagemAnimal.toString()),
               title: Text(tabela[Animal].nomeAnimal.toString()),
               trailing: Text(tabela[Animal].biomaAnimal.toString()),
+              onTap: (){},
             );
-          }) , itemCount: tabela.length, separatorBuilder: (_, __) => Divider(),
+          }),padding: EdgeInsets.all(16),
+           itemCount: tabela.length,
+            separatorBuilder: (_, __) => Divider(color: Color.fromARGB(255, 117, 239, 11), height: 30,),
           ),
-        ],
-      ),
     );
   }
 }
