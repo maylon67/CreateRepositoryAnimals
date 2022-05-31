@@ -16,23 +16,16 @@ final buscaAnimal = TextEditingController();
             TextStyle(fontWeight: FontWeight.bold, color: Color.fromARGB(255, 255, 255, 255)),
             centerTitle: true,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          TextField(
-           controller: buscaAnimal,
-          ),
-          ListView.separated( itemBuilder: ( (BuildContext context , int Animal) {
+      body: ListView.separated( itemBuilder: ( (BuildContext context , int Animal) {
             return ListTile(
               leading: Image.asset(tabela[Animal].imagemAnimal.toString()),
               title: Text(tabela[Animal].nomeAnimal.toString()),
-              trailing: Text(tabela[Animal].biomaAnimal.toString()),
+              trailing: Text(tabela[Animal].tipoAlimentacaoAnimal.toString()),
+              onTap:() {}
             );
-          }) , itemCount: tabela.length, separatorBuilder: (_, __) => Divider(),
+          }
+          ), padding: EdgeInsets.all(10), itemCount: tabela.length, separatorBuilder: (_, __) => Divider(height: 30,thickness: 2.4,),
           ),
-        ],
-      ),
     );
   }
 }

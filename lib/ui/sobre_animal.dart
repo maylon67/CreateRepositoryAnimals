@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class SobreAnimal {
   // observação essa lista abaixo tem o subtipo do construtor Animal por isso ele requer as variaveis que declaramos
   static List<Animal> tabela = [
-    Animal('Savana', '20.000', '190kg', 'Macho ou femea', 'leão', '',
+    Animal('Savana', '20.000', '190kg', 'Macho ou femea', 'leão', 'lib/images/leao.jpg',
         'de 1,37 a 2m', 'Mamifero', 'Carnivoro'),
 // inserindo o animal leão
     Animal(
@@ -13,15 +13,15 @@ class SobreAnimal {
         '36 a 66kg',
         "Macho ou Femêa",
         'Capivara',
-        '',
+        'lib/images/Capivara.png',
         'de 54 á  64cm',
         'Mamifero Roedor',
         'Herbivoro'),
 // inserindo o animal capivara
-    Animal("Savana", 'Aprox. 1.830', '160kg', 'Macho ou Femêa', '',
+    Animal("Savana", 'Aprox. 1.830', '160kg', 'Macho ou Femêa', 'lib/images/komodo.jpg',
         'Dragão de Komodo', '40cm de Altura', 'Réptil', 'Carnivoro'),
 // inserindo o animal Dragão de Komodo
-    Animal('Florestas tropicais', 'Aprox. 1.000', '200kg', 'Macho ou femêa', '',
+    Animal('Florestas tropicais', 'Aprox. 1.000', '200kg', 'Macho ou femêa', 'lib/images/gorila.jpg',
         'Gorila', '1,60 de altura', 'Mamífero', 'Herbívoro'),
 // inserindo o animal Gorila
     Animal(
@@ -30,13 +30,13 @@ class SobreAnimal {
         'de 520 a 1.100kg',
         'Macho/femea',
         'Tubarão Branco',
-        '',
+        'lib/images/tubarao.jpg',
         'de 4 a 6m de comprimento',
         'Peixe',
         'Carnivoro'),
 // inserindo o animal Tubarão Branco
     Animal('ambienteAquatico', '200 mil de habitanyes', '2,4kg', 'Macho/Femêa',
-        'Ornotorrinco', '50 centimetros', 'Mamifero', 'Carnivoro', ''),
+        'Ornotorrinco', '50 centimetros', 'Mamifero', 'Carnivoro', 'lib/images/ornotorrinco.png'),
 // inserindo o animal ornotorrinco//
     Animal(
         'Circulo Polar Artico',
@@ -47,7 +47,7 @@ class SobreAnimal {
         'Aproxi em 3 metros de altura',
         'Mamifero',
         'Carnivoro',
-        ''),
+        'lib/images/ursopolar.jpg'),
 // inserindo o urso polar
     Animal(
         'Floresta Temperada e Taiga',
@@ -58,7 +58,7 @@ class SobreAnimal {
         '2,1 metros de altura',
         'Mamifero',
         'Herbivoro',
-        ''),
+        'lib/images/alce.png'),
 // inserindo o Alce
     Animal(
         'Floresta Tropicais',
@@ -69,7 +69,7 @@ class SobreAnimal {
         'pode atingir em ate 1,8 metros de altura',
         'Mamifero',
         'Herbivoro',
-        ''),
+        'lib/images/orugutango.png'),
 // inserindo o orangutango
     Animal(
         'Bioma Aquatico',
@@ -80,7 +80,7 @@ class SobreAnimal {
         'de 1,6 á 1,9 metros de comprimento',
         'Mamifero',
         'Carnivoro',
-        ''),
+        'lib/images/foca.png'),
 // inserindo a foca cinzenta
     Animal(
         'Bioma Desertico',
@@ -91,7 +91,7 @@ class SobreAnimal {
         'De 1,8 á 2 metros de Altura',
         'Mamifero',
         'Herbivoro',
-        ''),
+        'lib/images/camelo.png'),
 // inserindo o animal camelo
     Animal(
         'Savanas',
@@ -102,7 +102,7 @@ class SobreAnimal {
         'aprox em 5,7 metros de Altura',
         'Mamifero',
         'Herbivoro',
-        '')
+        'lib/images/girafa.png')
 // inserindo o animal girafa
   ];
 }
