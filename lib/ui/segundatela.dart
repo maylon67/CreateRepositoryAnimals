@@ -6,7 +6,7 @@ class SegundaTela extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Dados Animal"),
+        title: Text("Description Animals"),
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
         titleTextStyle: 
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
