@@ -8,6 +8,7 @@ class MainPage extends StatefulWidget {
 
   @override
   State<MainPage> createState() => _MainPageState();
+  
 }
 
 class _MainPageState extends State<MainPage> {
@@ -39,7 +40,7 @@ class _MainPageState extends State<MainPage> {
         showUnselectedLabels: false,
         elevation: 0,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.add_location_rounded),label: 'Localização'),
+          BottomNavigationBarItem(icon: Icon(Icons.add_location_rounded),label: 'Localização',),
           BottomNavigationBarItem(icon: Icon(Icons.home_rounded),label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.account_box_rounded),label: 'Conta'),
         ],
