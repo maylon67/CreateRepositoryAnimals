@@ -13,11 +13,15 @@ class _SetingsPageState extends State<SetingsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
      appBar: AppBar(
-       title: Text('Configurações'),
+       title:  Text('Configurações',style: TextStyle(fontSize: 29,color: Colors.white,fontWeight: FontWeight.bold),),
        backgroundColor: corPadraoApp,
        centerTitle: true,
-       titleTextStyle: TextStyle(fontSize: 29,fontWeight: FontWeight.bold,color: Colors.white70), 
      ), 
+     body: Column(
+       children: const[
+         Text('bla bla bla', style: TextStyle(fontSize: 29,fontWeight: FontWeight.bold),)
+       ],
+     ),
     );
   }
 }

@@ -18,7 +18,7 @@ class SobreAnimal {
         'Felidae'),
 // inserindo o animal Leão
     Animal(
-        'Semi-\naquaticos',
+        'Semi-aquaticos',
         'Desconhecido',
         '36 a 66kg',
         "Macho ou Femêa",
