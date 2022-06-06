@@ -5,7 +5,7 @@ import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:app_demo/models/information_animal.dart';
 import 'package:app_demo/main.dart';
 class LocalizacaoAnimais extends StatefulWidget {
-  const LocalizacaoAnimais({ Key? key }) : super(key: key);
+  LocalizacaoAnimais({ Key? key }) : super(key: key);
 
   @override
   State<LocalizacaoAnimais> createState() => _LocalizacaoAnimaisState();

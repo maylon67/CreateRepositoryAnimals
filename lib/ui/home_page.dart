@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:app_demo/models/information_animal.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+HomePage ({Key? key}) : super(key: key);
   @override
   State<HomePage> createState() => _HomePageState();
 }

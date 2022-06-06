@@ -52,7 +52,7 @@ class _MainPageState extends State<MainPage> {
             label: 'Localização',
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.description_rounded), label: 'Descrição'),
+              icon: Icon(Icons.description_rounded,), label: 'Descrição',),
           BottomNavigationBarItem(
               icon: Icon(Icons.settings), label: 'Configurações'),
         ],
