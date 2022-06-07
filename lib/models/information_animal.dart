@@ -11,6 +11,8 @@ class Animal <String>{
   String tipoAnimal;
   String tipoAlimentacaoAnimal;
   String imagemAnimal;
+  String familiaCientificaAnimal;
+  String nomeCientificoAnimal;
   // aqui incializo as variaveis necessarias pra informa o animal
   Animal(
     this.biomaAnimal,
@@ -21,6 +23,8 @@ class Animal <String>{
     this.alturaAnimal,
     this.tipoAnimal,
     this.tipoAlimentacaoAnimal,
-    this.imagemAnimal
+    this.imagemAnimal,
+    this.familiaCientificaAnimal,
+    this.nomeCientificoAnimal
   );
 }
