@@ -1,29 +1,42 @@
+import 'dart:ui';
+
 import 'package:app_demo/app_config.dart';
+import 'package:app_demo/models/information_animal.dart';
 import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:flutter/material.dart';
-class DescricaoAnimais extends StatelessWidget {
-DescricaoAnimais({ Key? key }) : super(key: key);
-final tabela2 = SobreAnimal.tabela;
+class DescricaoAnimais extends StatefulWidget {
+  final Animal animal;
+DescricaoAnimais(this.animal);
+
+  @override
+  State<DescricaoAnimais> createState() => _DescricaoAnimaisState();
+}
+
+class _DescricaoAnimaisState extends State<DescricaoAnimais> {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Description Animals"),
+        title:  Text(widget.animal.nomeAnimal),
         backgroundColor: corPadraoApp,
         titleTextStyle: 
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
         centerTitle: true),
-        body: SingleChildScrollView(
-          // ignore: non_constant_identifier_names
-          child: ListView.separated(itemBuilder: ((BuildContext context, int Animal) {
-             return Text('fmivb');
-           }),
-            separatorBuilder: (_, __) => Divider(
-            color: corPadraoApp,
-            height: 30,
-            thickness: 2.4,
-          ),shrinkWrap: true, itemCount: tabela2.length)
-          ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(widget.animal.familiaCientificaAnimal, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+            SizedBox(
+              height: 15,
+              ),
+              Text(widget.animal.nomeCientificoAnimal, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),)
+          ],
+        ),
     );
+          // ignore: non_constant_identifier_names
+         
+            
   }
 }

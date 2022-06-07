@@ -1,4 +1,5 @@
 // ignore_for_file: non_constant_identifier_names
+import 'package:app_demo/ui/segundatela.dart';
 import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/models/information_animal.dart';
@@ -11,37 +12,37 @@ HomePage ({Key? key}) : super(key: key);
 
 class _HomePageState extends State<HomePage> {
   PageController pageController = PageController();
-  final tabela = SobreAnimal.tabela;
+  final animais = SobreAnimal.tabela;
   final buscaAnimal = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Wikipédia Animais"),
+        title: Text("Wikipédia Animais",style: TextStyle(fontSize: 29),),
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
         titleTextStyle: TextStyle(
             fontWeight: FontWeight.bold,
             color: Color.fromARGB(255, 255, 255, 255)),
         centerTitle: true,
       ),
-      body: SingleChildScrollView(
-        child: ListView.separated(
-          itemBuilder: ((BuildContext context, int Animal) {
+      body: ListView.separated(
+          itemBuilder: ((BuildContext context, int indice) {
             return ListTile(
-              leading: Image.asset(tabela[Animal].imagemAnimal.toString()),
-              title: Text(tabela[Animal].nomeAnimal.toString()),
-              trailing: Text(tabela[Animal].tipoAlimentacaoAnimal.toString()),
-              onTap: () {},
+              leading: Image.asset(animais[indice].imagemAnimal.toString(),cacheHeight: 150,cacheWidth: 150,),
+              title: Text(animais[indice].nomeAnimal.toString()),
+              trailing: Text(animais[indice].tipoAlimentacaoAnimal.toString()),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (_) => DescricaoAnimais(animais[indice])));
+              },
             );
           }),
           shrinkWrap: true,
-          itemCount: tabela.length,
+          itemCount: animais.length,
           separatorBuilder: (_, __) => Divider(
             height: 30,
             thickness: 2.4,
           ),
         ),
-      ),
     );
   }
 }

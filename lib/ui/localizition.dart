@@ -18,6 +18,7 @@ class _LocalizacaoAnimaisState extends State<LocalizacaoAnimais> {
       appBar: AppBar(
         title: Text('Localização dos Animais',style: TextStyle(color: Colors.white,fontSize: 29,fontWeight: FontWeight.bold),),
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
+        centerTitle: true,
       ),
     );
   }
