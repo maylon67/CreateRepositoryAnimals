@@ -33,8 +33,8 @@ class SobreAnimal {
         'lib/images/capivaraprimeira.png',
         'lib/images/capivarasegunda.jpg',
         'lib/images/capivaraterceira.jpg',
-        'Fam. Cient.: Hydrochoerus hydrochaeris',
-        'Nome Cient: Caviidae'),
+        'Fam. Cient: Hydrochoerus hydrochaeris',
+        'Nome. Cient: Caviidae'),
 // inserindo o animal capivara
     Animal(
         "Bioma: Savana",
@@ -50,7 +50,7 @@ class SobreAnimal {
         'lib/images/komodosegundo.jpg',
         'lib/images/komodoterceiro.png',
         'Fam. Cient.: Varanus komodoensis',
-        'Nome Cientifico:Varanus'),
+        'Nome. Cient:Varanus'),
 // inserindo o animal Dragão de Komodo
     Animal(
         'Florestas tropicais',
@@ -65,8 +65,8 @@ class SobreAnimal {
         'lib/images/gorilaprimeiro.jpg',
         'lib/images/gorilasegundo.jpg',
         'lib/images/gorilaterceiro.jpg',
-        'Familia Cientifica:Gorila',
-        'Nome Cientifico:Hominidae'),
+        'Familia. Cient:Gorila',
+        'Nome. Cient:Hominidae'),
 // inserindo o animal Gorila
     Animal(
         'Bioma temperado e tropical',
@@ -81,8 +81,8 @@ class SobreAnimal {
         'lib/images/tubaraofera.jpg',
         'lib/images/tubaraosalto.jpg',
         'lib/images/tub.jpg',
-        'Familia Cientifica:Lamnidae',
-        'Nome Cientifico:Carcharodon carcharias'),
+        'Familia. Cient:Lamnidae',
+        'Nome. Cient:Carcharodon carcharias'),
 // inserindo o animal Tubarão Branco
     Animal(
         'ambienteAquatico',
@@ -97,8 +97,8 @@ class SobreAnimal {
         'lib/images/ornitorrinco.jpg',
         'lib/images/orni.jpg',
         'lib/images/ornisegundo.jpg',
-        'Familia Cientifica:Ornithorhynchus anatinus',
-        'Nome Cientifico:Ornithorhynchidae'),
+        'Familia. Cient:Ornithorhynchus anatinus',
+        'Nome. Cient:Ornithorhynchidae'),
 // inserindo o animal ornotorrinco//
     Animal(
         'Circulo Polar Artico',
@@ -113,8 +113,8 @@ class SobreAnimal {
         'lib/images/ursopolarprimeiro.jpg',
         'lib/images/ursopolarsegundo.jpg',
         'lib/images/ursopolarterceiro.jpg',
-        'Familia Cientifica:Ursidae',
-        'Nome Cientifico:Ursus maritimus'),
+        'Familia. Cient:Ursidae',
+        'Nome. Cientifico:Ursus maritimus'),
 // inserindo o urso polar
     Animal(
         'Floresta Temperada e Taiga',
@@ -129,8 +129,8 @@ class SobreAnimal {
         'lib/images/alceprimeiro.jpg',
         'lib/images/alcesegundo.jpg',
         'lib/images/alceterceiro.jpg',
-        'Familia Cientifica:Cervídeos',
-        'Nome Cientifico:Alces alces'),
+        'Familia. Cient:Cervídeos',
+        'Nome. Cient:Alces alces'),
 // inserindo o Alce
     Animal(
         'Floresta Tropicais',
@@ -145,8 +145,8 @@ class SobreAnimal {
         'lib/images/macacolaranja.jpg',
         'lib/images/macacolaranjasegundo.jpg',
         'lib/images/macacolaranjaterceiro.jpg',
-        'Familia Cientifica:Hominidae',
-        'Nome Cientifico:Pongo'),
+        'Familia. Cient:Hominidae',
+        'Nome. Cient:Pongo'),
 // inserindo o orangutango
     Animal(
         'Bioma aquatico',
@@ -161,8 +161,8 @@ class SobreAnimal {
         'lib/images/focaprimeira.jpg',
         'lib/images/focasegunda.jpg',
         'lib/images/focaterceira.jpg',
-        'Familia Cientifica:Phocidae',
-        'Nome Cientifico:Halichoerus grypus'),
+        'Familia. Cient:Phocidae',
+        'Nome. Cient:Halichoerus grypus'),
 // inserindo a foca cinzenta
     Animal(
         'Bioma desertico',
@@ -177,8 +177,8 @@ class SobreAnimal {
         'lib/images/cameloprimeiro.jpg',
         'lib/images/camelosegundo.jpg',
         'lib/images/cameloterceiro.jpg',
-        'Familia Cientifica:Camelidae',
-        'Nome Cientifico:Camelus'),
+        'Familia. Cient:Camelidae',
+        'Nome. Cient:Camelus'),
 // inserindo o animal camelo
     Animal(
         'Savanas',
@@ -193,8 +193,8 @@ class SobreAnimal {
         'lib/images/gira.jpg',
         'lib/images/giraf.jpg',
         'lib/images/girafaterceira.jpg',
-        'Familia Cientifica:Giraffidae',
-        'Nome Cientifico:Giraffa')
+        'Familia. Cient:Giraffidae',
+        'Nome. Cient:Giraffa')
 // inserindo o animal girafa
   ];
 }

@@ -41,93 +41,108 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 ],
               ),
               SizedBox(
-                height: 15,
+                height: 7.5,
               ),
               Divider(
                 height: 0,
+                 thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
               ),
               SizedBox(
-                height: 15,
+                height: 7.5,
               ),
-              Text(widget.animal.nomeAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              Text(widget.animal.nomeAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
-                ),
-                Divider(
-                  height: 0,
+                height: 7.5,
                 ),
                  Divider(
                 height: 0,
+                thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
               ),
               SizedBox(
-                height: 15,
+                height: 7.5,
               ),
-              Text(widget.animal.biomaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              Text(widget.animal.biomaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
+                height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
-                Text(widget.animal.alturaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+                Text(widget.animal.alturaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
+                height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
-                Text(widget.animal.pesoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+                Text(widget.animal.pesoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
+                height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
-                Text(widget.animal.populacaoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+                Text(widget.animal.populacaoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
+                height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
-                 Text(widget.animal.tipoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+                 Text(widget.animal.tipoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
+                height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
-              Text(widget.animal.familiaCientificaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              Text(widget.animal.familiaCientificaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
-                height: 15,
+                height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20)
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
-                Text(widget.animal.nomeCientificoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+                Text(widget.animal.nomeCientificoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
                 SizedBox(
-                  height: 15,
+                  height: 7.5,
                 ),
                 Divider(
                   height: 0,
+                   thickness:1.4,
+                color: Color.fromARGB(255, 21, 20, 20),
                 ),
             ],
           ),
