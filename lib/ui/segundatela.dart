@@ -1,29 +1,140 @@
+import 'dart:ui';
+
 import 'package:app_demo/app_config.dart';
+import 'package:app_demo/models/information_animal.dart';
 import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:flutter/material.dart';
-class DescricaoAnimais extends StatelessWidget {
-   DescricaoAnimais({ Key? key }) : super(key: key);
-final tabela2 = SobreAnimal.tabela;
+class DescricaoAnimais extends StatefulWidget {
+  final Animal animal;
+DescricaoAnimais(this.animal);
+
+  @override
+  State<DescricaoAnimais> createState() => _DescricaoAnimaisState();
+}
+
+class _DescricaoAnimaisState extends State<DescricaoAnimais> {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Description Animals"),
+        title:  Text(widget.animal.nomeAnimal),
         backgroundColor: corPadraoApp,
         titleTextStyle: 
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
-        centerTitle: true,),
+        centerTitle: true),
         body: SingleChildScrollView(
-          child: 
-           ListView.separated(itemBuilder: ((BuildContext context, int Animal) {
-             return Text('fmivb');
-           }),
-            separatorBuilder: (_, __) => Divider(
-            height: 30,
-            thickness: 2.4,
-          )
-          , itemCount: tabela2.length)
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Row(
+                children: [
+                  Expanded(child: Image.asset(widget.animal.imagemAnimal.toString(), cacheHeight: 500, cacheWidth: 500,)),
+                  Expanded(child: Image.asset(widget.animal.imagemAnimalPrimeira.toString(), cacheHeight: 500, cacheWidth: 500,)),
+                ],
+              ),
+              Row(
+                children: [
+                  Expanded(child: Image.asset(widget.animal.imagemAnimalSegunda.toString(), cacheHeight: 500, cacheWidth: 500,)),
+                  Expanded(child: Image.asset(widget.animal.imagemAnimalTerceira.toString(), cacheHeight: 500, cacheWidth: 500,)),
+                ],
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Divider(
+                height: 0,
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Text(widget.animal.nomeAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                 Divider(
+                height: 0,
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Text(widget.animal.biomaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+                Text(widget.animal.alturaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+                Text(widget.animal.pesoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+                Text(widget.animal.populacaoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+                 Text(widget.animal.tipoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+              Text(widget.animal.familiaCientificaAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+              SizedBox(
+                height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+                SizedBox(
+                  height: 15,
+                ),
+                Text(widget.animal.nomeCientificoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 29,color: corPadraoApp),),
+                SizedBox(
+                  height: 15,
+                ),
+                Divider(
+                  height: 0,
+                ),
+            ],
           ),
+        ),
     );
+          // ignore: non_constant_identifier_names
+         
+            
   }
 }

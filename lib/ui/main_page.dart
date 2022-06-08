@@ -18,7 +18,7 @@ class _MainPageState extends State<MainPage> {
     LocalizacaoAnimais(),
     SetingsPage(),
   ];
-  int currentIndex = 0;
+  int currentIndex = 0; 
   void onTap(int index) {
     setState(() {
       currentIndex = index;
@@ -36,10 +36,10 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
         onTap: onTap,
         currentIndex: currentIndex,
-        selectedItemColor: Colors.black87,
+        selectedItemColor: Color.fromARGB(221, 0, 0, 0),
         unselectedItemColor: Color.fromARGB(221, 255, 255, 255),
         showSelectedLabels: false,
-        showUnselectedLabels: false,
+        showUnselectedLabels: false,     
         elevation: 0,
         items: const [
           BottomNavigationBarItem(
