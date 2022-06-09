@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:app_demo/app_config.dart';
 import 'package:app_demo/models/information_animal.dart';
 import 'package:app_demo/ui/sobre_animal.dart';
@@ -25,21 +23,15 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
         centerTitle: true),
         body: SingleChildScrollView(
+
           child: Column(
+            
             mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Row(
-                children: [
-                  Expanded(child: Image.asset(widget.animal.imagemAnimal.toString(), cacheHeight: 500, cacheWidth: 500,)),
-                  Expanded(child: Image.asset(widget.animal.imagemAnimalPrimeira.toString(), cacheHeight: 500, cacheWidth: 500,)),
-                ],
-              ),
-              Row(
-                children: [
-                  Expanded(child: Image.asset(widget.animal.imagemAnimalSegunda.toString(), cacheHeight: 500, cacheWidth: 500,)),
-                  Expanded(child: Image.asset(widget.animal.imagemAnimalTerceira.toString(), cacheHeight: 500, cacheWidth: 500,)),
-                ],
-              ),
+                Image.asset(widget.animal.imagemAnimalSegunda.toString(),alignment: Alignment.topLeft),
+                
+                Image.asset(widget.animal.imagemAnimalTerceira.toString(),alignment: Alignment.topRight),
               SizedBox(
                 height: 7.5,
               ),
