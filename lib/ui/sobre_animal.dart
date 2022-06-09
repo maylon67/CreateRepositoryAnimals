@@ -118,7 +118,7 @@ class SobreAnimal {
 // inserindo o urso polar
     Animal(
         'Bioma: Floresta Temperada e Taiga',
-        'População: Em cerca de 10 mil habitantes',
+        'População: Em cerca de 10 mil',
         'Peso: Aproxi em 700kg',
         'Macho/Femêa',
         'Alce',
@@ -134,11 +134,11 @@ class SobreAnimal {
 // inserindo o Alce
     Animal(
         'Floresta Tropicais',
-        'População: Em cerca de 100 mil habitantes',
+        'População: Em cerca de 100 mil',
         'Peso: Em cerca de 100kg',
         'Macho/Femêa',
         'Orangotango',
-        'Tamanho: Pode atingir em ate 1,8 metros de altura',
+        'Tamanho: Pode atingir ate 1,8 metros',
         'Mamifero',
         'Herbivoro',
         'lib/images/orangotango.png',
@@ -166,7 +166,7 @@ class SobreAnimal {
 // inserindo a foca cinzenta
     Animal(
         'Bioma desertico',
-        'População: Em volta de 1,4 milhões de habitantes',
+        'População: Em volta de 1,4 milhões',
         'Peso: Em cerca de 650kg',
         'Macho/Femêa',
         'Camelo',
@@ -182,11 +182,11 @@ class SobreAnimal {
 // inserindo o animal camelo
     Animal(
         'Savanas',
-        'População: Em vola de 117 mil de habitantes',
+        'População: Em vola de 117 mil',
         'Peso:  Em volta de 1,9 toneladas',
         'Macho/Femêa',
         'Girafa',
-        'Tamanho: Aprox em 5,7 metros de Altura',
+        'Tamanho: 5,7 metros',
         'Mamifero',
         'Herbivoro',
         'lib/images/girafa.png',

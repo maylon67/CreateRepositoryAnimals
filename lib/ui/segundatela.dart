@@ -33,12 +33,12 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 
                 Image.asset(widget.animal.imagemAnimalTerceira.toString(),alignment: Alignment.topRight),
               SizedBox(
-                height: 7.5,
+                height: 0.5,
               ),
               Divider(
                 height: 0,
                  thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                color: Color.fromARGB(255, 21, 20, 20),
               ),
               SizedBox(
                 height: 7.5,
