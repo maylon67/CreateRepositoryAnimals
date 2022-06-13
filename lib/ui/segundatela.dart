@@ -20,7 +20,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
       backgroundColor: colorScaffold,
       appBar: AppBar(
         title:  Text(widget.animal.nomeAnimal),
-        backgroundColor: colorScaffold,
+        backgroundColor: colorText,
         titleTextStyle: 
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
         centerTitle: true),
@@ -40,7 +40,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
               Divider(
                 height: 0,
                  thickness:1.4,
-                color: isSwitch == false ? Color.fromARGB(255, 21, 20, 20) : corPadraoApp,
+                color: corPadraoApp,
               ),
               SizedBox(
                 height: 7.5,
@@ -52,7 +52,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                  Divider(
                 height: 0,
                 thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                 color: corPadraoApp,
               ),
               SizedBox(
                 height: 7.5,
@@ -64,7 +64,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                 color: corPadraoApp,
                 ),
                 SizedBox(
                   height: 7.5,
@@ -76,7 +76,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                color: corPadraoApp,
                 ),
                 SizedBox(
                   height: 7.5,
@@ -88,7 +88,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                color: corPadraoApp,
                 ),
                 SizedBox(
                   height: 7.5,
@@ -100,7 +100,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                color: corPadraoApp,
                 ),
                 SizedBox(
                   height: 7.5,
@@ -112,7 +112,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                color: corPadraoApp,
                 ),
                 SizedBox(
                   height: 7.5,
@@ -124,7 +124,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20)
+                color: corPadraoApp,
                 ),
                 SizedBox(
                   height: 7.5,
@@ -136,7 +136,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Divider(
                   height: 0,
                    thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20),
+               color: corPadraoApp,
                 ),
             ],
           ),

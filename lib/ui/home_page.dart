@@ -32,8 +32,8 @@ class _HomePageState extends State<HomePage> {
           itemBuilder: ((BuildContext context,  indice) {
             return ListTile(
               leading: Image.asset(animais[indice].imagemAnimal.toString(),cacheHeight: 150,cacheWidth: 150,),
-              title: Text(animais[indice].nomeAnimal.toString()),
-              trailing: Text(animais[indice].tipoAlimentacaoAnimal.toString()),
+              title: Text(animais[indice].nomeAnimal.toString(), style: TextStyle(color: colorText),),
+              trailing: Text(animais[indice].tipoAlimentacaoAnimal.toString(), style: TextStyle(color: colorText),),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (_) => DescricaoAnimais(animais[indice])));
               },
