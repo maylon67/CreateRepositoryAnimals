@@ -1,3 +1,4 @@
+import 'package:app_demo/app_config.dart';
 import 'package:app_demo/ui/setings_animais.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/ui/home_page.dart';
@@ -18,12 +19,12 @@ class _LocalizacaoAnimaisState extends State<LocalizacaoAnimais> {
     return Scaffold(
       backgroundColor: colorScaffold,
       appBar: AppBar(
-        title: Text('Localização dos Animais',style: TextStyle(color: Colors.white,fontSize: 29,fontWeight: FontWeight.bold),),
-        backgroundColor: Color.fromARGB(255, 117, 239, 11),
+        title: Text('Localização dos Animais',style: TextStyle(color: corPadraoApp,fontSize: 29,fontWeight: FontWeight.bold),),
+        backgroundColor: colorScaffold,
         centerTitle: true,
       ),
       body: Column(
-        
+
       ),
     );
   }

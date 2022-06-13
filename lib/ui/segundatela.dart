@@ -20,9 +20,9 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
       backgroundColor: colorScaffold,
       appBar: AppBar(
         title:  Text(widget.animal.nomeAnimal),
-        backgroundColor: colorText,
+        backgroundColor: colorScaffold,
         titleTextStyle: 
-        TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
+        TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: corPadraoApp,),
         centerTitle: true),
         body: SingleChildScrollView(
 

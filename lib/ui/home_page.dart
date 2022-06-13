@@ -22,10 +22,10 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: colorScaffold,
       appBar: AppBar(
         title: Text("Wikipédia Animais",style: TextStyle(fontSize: 29),),
-        backgroundColor: Color.fromARGB(255, 117, 239, 11),
+        backgroundColor: colorScaffold,
         titleTextStyle: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Color.fromARGB(255, 255, 255, 255)),
+            color: corPadraoApp),
         centerTitle: true,
       ),
       body: ListView.separated(
