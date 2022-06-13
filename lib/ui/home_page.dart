@@ -1,5 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
+import 'package:app_demo/app_config.dart';
 import 'package:app_demo/ui/segundatela.dart';
+import 'package:app_demo/ui/setings_animais.dart';
 import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/models/information_animal.dart';
@@ -17,6 +19,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorScaffold,
       appBar: AppBar(
         title: Text("Wikipédia Animais",style: TextStyle(fontSize: 29),),
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
@@ -41,6 +44,7 @@ class _HomePageState extends State<HomePage> {
           separatorBuilder: (_, __) => Divider(
             height: 30,
             thickness: 2.4,
+            color: Color(0xFF3bde26),
           ),
         ),
     );

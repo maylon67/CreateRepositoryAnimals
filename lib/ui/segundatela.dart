@@ -1,5 +1,6 @@
 import 'package:app_demo/app_config.dart';
 import 'package:app_demo/models/information_animal.dart';
+import 'package:app_demo/ui/setings_animais.dart';
 import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:flutter/material.dart';
 class DescricaoAnimais extends StatefulWidget {
@@ -18,7 +19,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
     return Scaffold(
       appBar: AppBar(
         title:  Text(widget.animal.nomeAnimal),
-        backgroundColor: corPadraoApp,
+        backgroundColor: colorScaffold,
         titleTextStyle: 
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: Color.fromARGB(255, 255, 255, 255)),
         centerTitle: true),

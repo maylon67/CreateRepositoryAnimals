@@ -1,4 +1,3 @@
-import 'package:app_demo/ui/descricao_animais.dart';
 import 'package:app_demo/ui/home_page.dart';
 import 'package:app_demo/ui/localizition.dart';
 import 'package:app_demo/ui/segundatela.dart';
@@ -43,16 +42,15 @@ class _MainPageState extends State<MainPage> {
         elevation: 0,
         items: const [
           BottomNavigationBarItem(
-              icon: Icon(
-                Icons.home,
-              ),
+              icon: Icon(Icons.home),
               label: 'Home'),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_location_rounded),
             label: 'Localização',
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.settings), label: 'Configurações'),
+              icon: Icon(Icons.settings),
+              label: 'Configurações'),
         ],
       ),
     );

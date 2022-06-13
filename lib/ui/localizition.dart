@@ -20,6 +20,9 @@ class _LocalizacaoAnimaisState extends State<LocalizacaoAnimais> {
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
         centerTitle: true,
       ),
+      body: Column(
+        
+      ),
     );
   }
 }
