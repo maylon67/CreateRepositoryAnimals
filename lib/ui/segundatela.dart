@@ -17,6 +17,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorScaffold,
       appBar: AppBar(
         title:  Text(widget.animal.nomeAnimal),
         backgroundColor: colorScaffold,
@@ -39,7 +40,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
               Divider(
                 height: 0,
                  thickness:1.4,
-                color: Color.fromARGB(255, 21, 20, 20),
+                color: isSwitch == false ? Color.fromARGB(255, 21, 20, 20) : corPadraoApp,
               ),
               SizedBox(
                 height: 7.5,

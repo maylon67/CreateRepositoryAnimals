@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       body: ListView.separated(
-          itemBuilder: ((BuildContext context, int indice) {
+          itemBuilder: ((BuildContext context,  indice) {
             return ListTile(
               leading: Image.asset(animais[indice].imagemAnimal.toString(),cacheHeight: 150,cacheWidth: 150,),
               title: Text(animais[indice].nomeAnimal.toString()),

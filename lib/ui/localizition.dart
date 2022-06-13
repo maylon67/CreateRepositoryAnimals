@@ -1,3 +1,4 @@
+import 'package:app_demo/ui/setings_animais.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/ui/home_page.dart';
 import 'package:app_demo/ui/segundatela.dart';
@@ -15,6 +16,7 @@ class _LocalizacaoAnimaisState extends State<LocalizacaoAnimais> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorScaffold,
       appBar: AppBar(
         title: Text('Localização dos Animais',style: TextStyle(color: Colors.white,fontSize: 29,fontWeight: FontWeight.bold),),
         backgroundColor: Color.fromARGB(255, 117, 239, 11),
