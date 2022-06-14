@@ -240,7 +240,143 @@ class _ConfiguracoesContaState extends State<ConfiguracoesConta> {
                   thickness: 2.1,
                   color: corPadraoApp,
              ),
-                  
+             Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text(
+                    'Facebook',
+                    style: TextStyle(
+                      fontSize: 29,
+                      color: corPadraoApp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                Padding(
+                  padding: const EdgeInsets.only(left: 91.7),
+                  child: Icon(
+                    Icons.facebook_rounded,
+                    color: corPadraoApp,
+                    size: 55,
+                  ),
+                ),
+              ],
+            ), 
+            Divider(
+                  height: 0,
+                  thickness: 2.1,
+                  color: corPadraoApp,
+             ),
+             Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text(
+                    'Modo Anonimo',
+                    style: TextStyle(
+                      fontSize: 29,
+                      color: corPadraoApp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                Padding(
+                  padding: const EdgeInsets.only(left: 10.7),
+                  child: Icon(
+                    Icons.no_accounts_rounded,
+                    color: corPadraoApp,
+                    size: 55,
+                  ),
+                ),
+              ],
+            ), 
+            Divider(
+                  height: 0,
+                  thickness: 2.1,
+                  color: corPadraoApp,
+             ),
+            Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text(
+                  'Notificações',
+                    style: TextStyle(
+                      fontSize: 29,
+                      color: corPadraoApp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                Padding(
+                  padding: const EdgeInsets.only(left: 44.7),
+                  child: Icon(
+                    Icons.notifications_on_rounded,
+                    color: corPadraoApp,
+                    size: 55,
+                  ),
+                ),
+              ],
+            ),
+            Divider(
+              height: 0,
+                  thickness: 2.1,
+                  color: corPadraoApp,
+            ),
+            Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text(
+                  'Modo offline',
+                    style: TextStyle(
+                      fontSize: 29,
+                      color: corPadraoApp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                Padding(
+                  padding: const EdgeInsets.only(left: 44.7),
+                  child: Icon(
+                    Icons.offline_bolt_outlined,
+                    color: corPadraoApp,
+                    size: 55,
+                  ),
+                ),
+              ],
+            ),
+             Divider(
+              height: 0,
+                  thickness: 2.1,
+                  color: corPadraoApp,
+            ),
+          Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text(
+                  'Configurar Som',
+                    style: TextStyle(
+                      fontSize: 29,
+                      color: corPadraoApp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                   Icon(
+                    Icons.audiotrack_rounded,
+                    color: corPadraoApp,
+                    size: 55,
+                  ),
+              ],
+            ),          
           ],
         ),
       ),
