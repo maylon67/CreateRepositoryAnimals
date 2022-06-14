@@ -1,3 +1,4 @@
+import 'package:app_demo/ui/setings_account.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/app_config.dart';
 
@@ -47,7 +48,7 @@ class _SetingsPageState extends State<SetingsPage> {
                   textAlign: TextAlign.left,
                 ),
               ),
-              Padding(padding: EdgeInsets.symmetric(horizontal: 50)),
+              Padding(padding: EdgeInsets.symmetric(horizontal: 45)),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: Switch(
@@ -71,6 +72,9 @@ class _SetingsPageState extends State<SetingsPage> {
             color: corPadraoApp,
           ),
           GestureDetector(
+            onTap: (){
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => ConfiguracoesConta()));
+            },
             child: Row(   
               children: <Widget>[
                   SizedBox(height: 9,),
@@ -86,7 +90,7 @@ class _SetingsPageState extends State<SetingsPage> {
                 ),
                  Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
                 Padding(
-                  padding: const EdgeInsets.only(left: 23),
+                  padding: const EdgeInsets.only(left: 6.5),
                   child: Icon(Icons.account_circle_sharp,color: corPadraoApp,size: 42,),
                 ),
                 Divider(
