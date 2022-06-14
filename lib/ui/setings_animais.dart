@@ -65,29 +65,31 @@ class _SetingsPageState extends State<SetingsPage> {
             thickness: 1.4,
             color: corPadraoApp,
           ),
-          Row(
+          GestureDetector(
             
-            children: <Widget>[
-                SizedBox(height: 9,),
-              Padding(
-                padding:  EdgeInsets.symmetric(horizontal: 8.8),
-                child: Text('Configurar conta',style:
-                 TextStyle(
-                  fontSize: 29,
+            child: Row(
+              children: <Widget>[
+                  SizedBox(height: 9,),
+                Padding(
+                  padding:  EdgeInsets.symmetric(horizontal: 8.8),
+                  child: Text('Configurar conta',style:
+                   TextStyle(
+                    fontSize: 29,
+                    color: corPadraoApp,
+                    fontWeight: FontWeight.bold,   
+                  ),
+                  ),
+                ),
+                 Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                Icon(Icons.account_circle_sharp,color: corPadraoApp,size: 42,),
+                Divider(
+                  height: 0,
+                  thickness: 1.4,
                   color: corPadraoApp,
-                  fontWeight: FontWeight.bold,   
                 ),
-                ),
-              ),
-               Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
-              Icon(Icons.account_circle_sharp,color: corPadraoApp,size: 42,),
-              Divider(
-                height: 0,
-                thickness: 1.4,
-                color: corPadraoApp,
-              ),
-               SizedBox(height: 19,),
-            ],
+                 SizedBox(height: 19,),
+              ],
+            ),
           ),
           Divider(
             height: 0,
