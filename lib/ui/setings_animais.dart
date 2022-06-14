@@ -35,29 +35,34 @@ class _SetingsPageState extends State<SetingsPage> {
           ),
           Row(
             children: [
-              Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
-              Text(
-                'Tema escuro',
-                style: TextStyle(
-                  color: corPadraoApp,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 29,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                child: Text(
+                  'Tema escuro',
+                  style: TextStyle(
+                    color: corPadraoApp,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 29,
+                  ),
+                  textAlign: TextAlign.left,
                 ),
-                textAlign: TextAlign.left,
               ),
               Padding(padding: EdgeInsets.symmetric(horizontal: 50)),
-              Switch(
-                  value: isSwitch,
-                  onChanged: (newValue) {
-                    if (isSwitch == false) {
-                      colorScaffold = Colors.black;
-                    } else {
-                      colorScaffold = Colors.white;
-                    }
-                    setState(() {
-                      isSwitch = newValue;
-                    });
-                  }),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15),
+                child: Switch(
+                    value: isSwitch,
+                    onChanged: (newValue) {
+                      if (isSwitch == false) {
+                        colorScaffold = Colors.black;
+                      } else {
+                        colorScaffold = Colors.white;
+                      }
+                      setState(() {
+                        isSwitch = newValue;
+                      });
+                    }),
+              ),
             ],
           ),
           Divider(
@@ -66,12 +71,11 @@ class _SetingsPageState extends State<SetingsPage> {
             color: corPadraoApp,
           ),
           GestureDetector(
-            
-            child: Row(
+            child: Row(   
               children: <Widget>[
                   SizedBox(height: 9,),
                 Padding(
-                  padding:  EdgeInsets.symmetric(horizontal: 8.8),
+                  padding:  EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                   child: Text('Configurar conta',style:
                    TextStyle(
                     fontSize: 29,
@@ -81,7 +85,10 @@ class _SetingsPageState extends State<SetingsPage> {
                   ),
                 ),
                  Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
-                Icon(Icons.account_circle_sharp,color: corPadraoApp,size: 42,),
+                Padding(
+                  padding: const EdgeInsets.only(left: 23),
+                  child: Icon(Icons.account_circle_sharp,color: corPadraoApp,size: 42,),
+                ),
                 Divider(
                   height: 0,
                   thickness: 1.4,
