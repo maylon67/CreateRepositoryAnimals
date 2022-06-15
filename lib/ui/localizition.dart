@@ -22,6 +22,11 @@ class _LocalizacaoAnimaisState extends State<LocalizacaoAnimais> {
         title: Text('Localização dos Animais',style: TextStyle(color: corPadraoApp,fontSize: 29,fontWeight: FontWeight.bold),),
         backgroundColor: colorScaffold,
         centerTitle: true,
+         shape: UnderlineInputBorder(
+          borderSide: BorderSide(
+            color: colorAppBar,
+          )
+        ),
       ),
       body: Column(
 

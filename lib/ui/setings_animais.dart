@@ -1,3 +1,5 @@
+import 'package:app_demo/ui/change_email.dart';
+import 'package:app_demo/ui/change_password.dart';
 import 'package:app_demo/ui/setings_account.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/app_config.dart';
@@ -26,6 +28,11 @@ class _SetingsPageState extends State<SetingsPage> {
         ),
         backgroundColor: colorScaffold,
         centerTitle: true,
+         shape: UnderlineInputBorder(
+          borderSide: BorderSide(
+            color: colorAppBar,
+          )
+        ),
       ),
       body: Column(
         children: [
@@ -92,6 +99,78 @@ class _SetingsPageState extends State<SetingsPage> {
                 Padding(
                   padding: const EdgeInsets.only(left: 6.5),
                   child: Icon(Icons.account_circle_sharp,color: corPadraoApp,size: 42,),
+                ),
+                Divider(
+                  height: 0,
+                  thickness: 1.4,
+                  color: corPadraoApp,
+                ),
+                 SizedBox(height: 19,),
+              ],
+            ),
+          ),
+          Divider(
+            height: 0,
+            thickness: 1.4,
+            color: corPadraoApp,
+          ),
+          GestureDetector(
+            onTap: (){
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => AlterarEmail()));
+            },
+            child: Row(   
+              children: <Widget>[
+                  SizedBox(height: 9,),
+                Padding(
+                  padding:  EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text('Editar E-mail',style:
+                   TextStyle(
+                    fontSize: 29,
+                    color: corPadraoApp,
+                    fontWeight: FontWeight.bold,   
+                  ),
+                  ),
+                ),
+                 Padding(padding: EdgeInsets.symmetric(horizontal: 52)),
+                Padding(
+                  padding: const EdgeInsets.only(left: 6.5),
+                  child: Icon(Icons.alternate_email,color: corPadraoApp,size: 42,),
+                ),
+                Divider(
+                  height: 0,
+                  thickness: 1.4,
+                  color: corPadraoApp,
+                ),
+                 SizedBox(height: 19,),
+              ],
+            ),
+          ),
+          Divider(
+            height: 0,
+            thickness: 1.4,
+            color: corPadraoApp,
+          ),
+           GestureDetector(
+            onTap: (){
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => AlterarSenha()));
+            },
+            child: Row(   
+              children: <Widget>[
+                  SizedBox(height: 9,),
+                Padding(
+                  padding:  EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                  child: Text('Editar Senha',style:
+                   TextStyle(
+                    fontSize: 29,
+                    color: corPadraoApp,
+                    fontWeight: FontWeight.bold,   
+                  ),
+                  ),
+                ),
+                 Padding(padding: EdgeInsets.symmetric(horizontal: 52)),
+                Padding(
+                  padding: const EdgeInsets.only(left: 6.5),
+                  child: Icon(Icons.vpn_key,color: corPadraoApp,size: 42,),
                 ),
                 Divider(
                   height: 0,

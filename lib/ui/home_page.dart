@@ -27,6 +27,11 @@ class _HomePageState extends State<HomePage> {
             fontWeight: FontWeight.bold,
             color: corPadraoApp),
         centerTitle: true,
+        shape: UnderlineInputBorder(
+          borderSide: BorderSide(
+            color: colorAppBar,
+          )
+        ),
       ),
       body: ListView.separated(
           itemBuilder: ((BuildContext context,  indice) {

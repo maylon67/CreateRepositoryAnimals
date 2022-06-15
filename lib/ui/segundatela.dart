@@ -23,7 +23,13 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
         backgroundColor: colorScaffold,
         titleTextStyle: 
         TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: corPadraoApp,),
-        centerTitle: true),
+        centerTitle: true,
+        shape: UnderlineInputBorder(
+          borderSide: BorderSide(
+            color: colorAppBar,
+          )
+        ),
+        ),
         body: SingleChildScrollView(
 
           child: Column(
