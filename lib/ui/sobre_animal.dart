@@ -1,6 +1,31 @@
 import 'package:app_demo/models/information_animal.dart';
 import 'package:flutter/material.dart';
-
+Map <String, dynamic> jsonTest = {
+  "animais": [
+    {
+      "nome": "Leao",
+      "habitat": "Savana",
+      "genero": "Felidae",
+      "populacao": "23",
+      "peso": "56",
+      "sexo": "M",
+      "altura": "23",
+      "tipo": "mamífero",
+      "alimentacao": "carnívoro"
+    },
+     {
+      "nome": "Tigre",
+      "habitat": "Savana",
+      "genero": "Felidae",
+      "populacao": "60",
+      "peso": "70",
+      "sexo": "F",
+      "altura": "40",
+      "tipo": "quadrupede",
+      "alimentacao": "carnívoro",
+    },
+  ]
+};
 class SobreAnimal {
   // observação essa lista abaixo tem o subtipo do construtor Animal por isso ele requer as variaveis que declaramos
   static List<Animal> tabela = [
