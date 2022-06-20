@@ -33,13 +33,34 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
         body: SingleChildScrollView(
 
           child: Column(
-            
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-                Image.asset(widget.animal.imagemAnimalSegunda.toString(),alignment: Alignment.topLeft),
-                
-                Image.asset(widget.animal.imagemAnimalTerceira.toString(),alignment: Alignment.topRight),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 7.5),
+                  child: Card(
+                    color: corPadraoApp,
+                    shape: UnderlineInputBorder(
+                      borderRadius: BorderRadius.circular(12)),
+                    child: Padding(
+                      padding:  EdgeInsets.symmetric(vertical: 8, horizontal: 12.5),
+                      child: Image.asset(widget.animal.imagemAnimalSegunda.toString(),alignment: Alignment.topLeft,repeat: ImageRepeat.noRepeat,),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 7.5, vertical: 15.6),
+                  child: Card(
+                    color: corPadraoApp,
+                    shape: UnderlineInputBorder(
+                      borderRadius: BorderRadius.circular(12)
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12.5),
+                      child: Image.asset(widget.animal.imagemAnimalTerceira.toString(),alignment: Alignment.topRight,repeat: ImageRepeat.noRepeat,),
+                    ),
+                  ),
+                ),
               SizedBox(
                 height: 0.5,
               ),
@@ -48,10 +69,12 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                  thickness:1.4,
                 color: corPadraoApp,
               ),
-              SizedBox(
-                height: 7.5,
-              ),
-              Text(widget.animal.nomeAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
+              Column(
+                children: [
+                  SizedBox(
+                    height: 7.5,
+                  ),
+                  Text(widget.animal.nomeAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
               SizedBox(
                 height: 7.5,
                 ),
@@ -144,6 +167,8 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                    thickness:1.4,
                color: corPadraoApp,
                 ),
+                ],
+              ),
             ],
           ),
         ),

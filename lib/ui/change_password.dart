@@ -1,7 +1,6 @@
 import 'package:app_demo/app_config.dart';
 import 'package:app_demo/ui/setings_animais.dart';
 import 'package:flutter/material.dart';
-
 class AlterarSenha extends StatefulWidget {
   const AlterarSenha({ Key? key }) : super(key: key);
 

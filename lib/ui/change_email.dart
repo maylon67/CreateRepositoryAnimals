@@ -3,7 +3,7 @@ import 'package:app_demo/ui/setings_animais.dart';
 import 'package:flutter/material.dart';
 
 class AlterarEmail extends StatefulWidget {
-  AlterarEmail({Key? key}) : super(key: key);
+  const AlterarEmail({ Key? key }) : super(key: key);
 
   @override
   State<AlterarEmail> createState() => _AlterarEmailState();
@@ -16,7 +16,7 @@ class _AlterarEmailState extends State<AlterarEmail> {
       backgroundColor: colorScaffold,
        appBar: AppBar(
         title: Text(
-          'Editar E-mail',
+          'Mudar E-mail',
           style: TextStyle(
               fontSize: 29, color: corPadraoApp, fontWeight: FontWeight.bold),
         ),
