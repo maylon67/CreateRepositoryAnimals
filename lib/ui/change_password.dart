@@ -15,7 +15,7 @@ class _AlterarSenhaState extends State<AlterarSenha> {
       backgroundColor: colorScaffold,
        appBar: AppBar(
         title: Text(
-          'Editar Senha',
+          'Mudar Senha',
           style: TextStyle(
               fontSize: 29, color: corPadraoApp, fontWeight: FontWeight.bold),
         ),
