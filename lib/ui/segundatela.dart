@@ -31,9 +31,12 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-                Image.asset(widget.animal.imagemAnimalSegunda.toString(),alignment: Alignment.topLeft),
+                Padding(
+                  padding:  EdgeInsets.symmetric(vertical:12.5 ),
+                  child: Image.asset(widget.animal.imagemAnimalSegunda.toString(),alignment: Alignment.topLeft,repeat: ImageRepeat.noRepeat,),
+                ),
                 
-                Image.asset(widget.animal.imagemAnimalTerceira.toString(),alignment: Alignment.topRight),
+                Image.asset(widget.animal.imagemAnimalTerceira.toString(),alignment: Alignment.topRight,repeat: ImageRepeat.noRepeat,),
               SizedBox(
                 height: 0.5,
               ),

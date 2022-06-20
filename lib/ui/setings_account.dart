@@ -344,7 +344,7 @@ class _ConfiguracoesContaState extends State<ConfiguracoesConta> {
                 Padding(
                   padding: const EdgeInsets.only(left: 44.7),
                   child: Icon(
-                    Icons.offline_bolt_outlined,
+                    Icons.wifi_off_rounded,
                     color: corPadraoApp,
                     size: 55,
                   ),
