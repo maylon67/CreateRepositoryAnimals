@@ -170,7 +170,7 @@ class _ConfiguracoesContaState extends State<ConfiguracoesConta> {
                 Padding(
                   padding: const EdgeInsets.only(left: 45.7),
                      child: Icon(
-                      Icons.sync,
+                      Icons.archive_rounded,
                       color: corPadraoApp,
                       size: 56.2,
                   ),

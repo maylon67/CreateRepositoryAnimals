@@ -22,7 +22,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
         title:  Text(widget.animal.nomeAnimal),
         backgroundColor: colorScaffold,
         titleTextStyle: 
-        TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: corPadraoApp,),
+        TextStyle(fontWeight: FontWeight.bold, fontSize: 29, color: corPadraoApp),
         centerTitle: true,
         shape: UnderlineInputBorder(
           borderSide: BorderSide(
@@ -31,7 +31,6 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
         ),
         ),
         body: SingleChildScrollView(
-
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -39,11 +38,11 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 7.5),
                   child: Card(
-                    color: corPadraoApp,
+                    color: corFundoImage,
                     shape: UnderlineInputBorder(
                       borderRadius: BorderRadius.circular(12)),
                     child: Padding(
-                      padding:  EdgeInsets.symmetric(vertical: 8, horizontal: 12.5),
+                      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12.5),
                       child: Image.asset(widget.animal.imagemAnimalSegunda.toString(),alignment: Alignment.topLeft,repeat: ImageRepeat.noRepeat,),
                     ),
                   ),
@@ -51,7 +50,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 7.5, vertical: 15.6),
                   child: Card(
-                    color: corPadraoApp,
+                    color: corFundoImage,
                     shape: UnderlineInputBorder(
                       borderRadius: BorderRadius.circular(12)
                     ),
