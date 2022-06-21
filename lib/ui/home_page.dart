@@ -13,10 +13,13 @@ HomePage ({Key? key}) : super(key: key);
 }
 class _HomePageState extends State<HomePage> {
   PageController pageController = PageController();
+  List<Animal> listAnimais = [];
   final animais = SobreAnimal.tabela;
   final buscaAnimal = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    jsonTest['animais'].forEach(
+      (element) => listAnimais.add(Animal.fromJson(element)));
     return Scaffold(
       backgroundColor: colorScaffold,
       appBar: AppBar(

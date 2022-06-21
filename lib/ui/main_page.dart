@@ -1,3 +1,6 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:app_demo/ui/filter_animal.dart';
 import 'package:app_demo/ui/home_page.dart';
 import 'package:app_demo/ui/localizition.dart';
 import 'package:app_demo/ui/segundatela.dart';
@@ -15,6 +18,7 @@ class _MainPageState extends State<MainPage> {
   List pages = [
     HomePage(),
     LocalizacaoAnimais(),
+    FiltrarAnimal(),
     SetingsPage(),
   ];
   int currentIndex = 0; 
@@ -48,6 +52,9 @@ class _MainPageState extends State<MainPage> {
             icon: Icon(Icons.add_location_rounded),
             label: 'Localização',
           ),
+           BottomNavigationBarItem(
+              icon: Icon(Icons.filter_alt_rounded),
+              label: 'Filtrar Animais'),
           BottomNavigationBarItem(
               icon: Icon(Icons.settings),
               label: 'Configurações'),
