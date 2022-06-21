@@ -41,11 +41,11 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
            //  crossAxisAlignment: CrossAxisAlignment.stretch,
              children: [
                Row(
-                 mainAxisAlignment: MainAxisAlignment.center,
+               //  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                  mainAxisSize: MainAxisSize.min,
                  children: [
                    SizedBox(
-                     width: 300,
+                     width: 310,
                      child: Form(
                        child: Column(
                          children: [
