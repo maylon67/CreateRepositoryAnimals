@@ -1,3 +1,4 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables
 import 'package:app_demo/app_config.dart';
 import 'package:app_demo/ui/setings_animais.dart';
 import 'package:flutter/material.dart';
@@ -28,8 +29,12 @@ class _LocalizacaoAnimaisState extends State<LocalizacaoAnimais> {
           )
         ),
       ),
-      body: Column(
-
+      body: SingleChildScrollView(
+        child: Column(
+                children: <Widget> [
+                           
+                ],
+        ),
       ),
     );
   }

@@ -11,7 +11,6 @@ HomePage ({Key? key}) : super(key: key);
   @override
   State<HomePage> createState() => _HomePageState();
 }
-
 class _HomePageState extends State<HomePage> {
   PageController pageController = PageController();
   final animais = SobreAnimal.tabela;
@@ -30,7 +29,7 @@ class _HomePageState extends State<HomePage> {
         shape: UnderlineInputBorder(
           borderSide: BorderSide(
             color: colorAppBar,
-          )
+          ),
         ),
       ),
       body: ListView.separated(

@@ -43,7 +43,7 @@ class _AlterarEmailState extends State<AlterarEmail> {
                           labelText: 'E-mail Atual:',
                           labelStyle: TextStyle(color: corPadraoApp),
                           prefix: Icon(
-                            Icons.mail_outline,
+                            Icons.mail_rounded,
                             color: corPadraoApp,
                           ),
                           enabledBorder: UnderlineInputBorder(
@@ -64,7 +64,7 @@ class _AlterarEmailState extends State<AlterarEmail> {
                           labelText: 'Novo E-mail:',
                           labelStyle: TextStyle(color: corPadraoApp),
                           prefix: Icon(
-                            Icons.mail_outline,
+                            Icons.mail_rounded,
                             color: corPadraoApp,
                           ),
                           enabledBorder: UnderlineInputBorder(
