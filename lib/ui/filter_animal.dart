@@ -125,8 +125,8 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
           itemBuilder: ((BuildContext context,  indice) {
             return ListTile(
               leading: Image.asset(listAnimais[indice].imagemAnimal.toString(),cacheHeight: 150,cacheWidth: 150,),
-              title: Text(listAnimais[indice].nomeAnimal.toString(), style: TextStyle(color: colorText),),
-              trailing: Text(listAnimais[indice].tipoAlimentacaoAnimal.toString(), style: TextStyle(color: colorText),),
+              title: Text(listAnimais[indice].nomeAnimal.toString(), style:estiloTitleList,),
+              trailing: Text(listAnimais[indice].tipoAlimentacaoAnimal.toString(), style: estiloTitleList,),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (_) => DescricaoAnimais(listAnimais[indice])));
               },

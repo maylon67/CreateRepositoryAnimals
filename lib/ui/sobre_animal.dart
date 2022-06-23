@@ -6,7 +6,7 @@ Map<String, dynamic> jsonTest = {
   "animais": [
     {
       "classificacao_animal":"Classificação: Terrestre",
-      "nome_animal": "Leao",
+      "nome_animal": "Leão",
       "bioma_animal": "Bioma: Savana",
       "familia_cientifica_animal": "Famlia.Cientí: Felidae",
       "populacao_animal": "População: 20.000",

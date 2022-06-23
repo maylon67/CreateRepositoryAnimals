@@ -8,3 +8,8 @@ final TextStyle corEstilo = TextStyle(
   color: corPadraoApp,
   fontWeight: FontWeight.bold,
 );
+final TextStyle estiloTitleList = TextStyle(
+  fontSize: 20,
+  color: corPadraoApp,
+  fontWeight: FontWeight.w700
+);
