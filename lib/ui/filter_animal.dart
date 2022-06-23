@@ -51,8 +51,8 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
                         color: corPadraoApp,
                       ),
                       decoration: InputDecoration(
-                        labelText: 'Filtrar animais',
-                        labelStyle: TextStyle(color: corPadraoApp),
+                        labelText: 'Pesquisar animais',
+                        labelStyle:corEstilo,
                         icon: Icon(
                           Icons.search_rounded,
                           size: 30,
@@ -114,6 +114,11 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
             Padding(padding: EdgeInsets.symmetric(
               vertical: 20,
             )
+            ),
+            Divider(
+               height: 30,
+            thickness: 3.3,
+            color: Color.fromARGB(255, 9, 210, 49),
             ),
              ListView.separated(
               physics: NeverScrollableScrollPhysics(),

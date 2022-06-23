@@ -135,7 +135,40 @@ Map<String, dynamic> jsonTest = {
       'image_terceira_animal': 'lib/images/ursopolarterceiro.jpg',
     },
     //Inserindo o animal Urso polar
-
+{
+   "classificacao_animal":"Classificação: Aquatico",
+   "nome_animal":"Tartaruga Marinha",
+    "bioma_animal": "Bioma:Aquatico",
+    "familia_cientifica_animal": " Familia.Cienti:Chelonidae",
+    "populacao_animal": "População: Em cerca de 2.000",
+    "peso_animal": 'Peso: Em cerca de 900kg',
+    "sexo_animal":"macho/femea",
+    "altura_animal": 'de 5,5cm á 2,1 metros de comprimento',
+    "tipo_animal":'Anfibio',
+    "alimentacao_animal":'Herbivoro',
+     "nome_cientifico_animal":  'Nome. Cient:Chelonioidea',
+     "image_animal" :'lib/images/tartaruga.png',
+      "image_primeira_animal" : 'lib/images/tartarugasegunda.png',
+     "image_segunda_animal" : 'lib/images/tartarugaprimeira.png',
+       "image_terceira_animal" : 'lib/images/tartarugaterceira.png',
+},
+{
+   "classificacao_animal":"Classificação: Terrestre",
+   "nome_animal":"Orangotango",
+    "bioma_animal": "Bioma:Floresta Tropicais",
+    "familia_cientifica_animal": " Familia.Cienti:Hominidae",
+    "populacao_animal":  'População: Em cerca de 100 mil',
+    "peso_animal":  'Peso: Em cerca de 100kg',
+    "sexo_animal":"macho/femea",
+    "altura_animal": 'Tamanho: Pode atingir ate 1,8 metros',
+    "tipo_animal":'Mamifero',
+    "alimentacao_animal":'Herbivoro',
+     "nome_cientifico_animal":  'Nome. Cient:Pongo',
+     "image_animal" :'lib/images/orangotango.png',
+      "image_primeira_animal" : 'lib/images/macacolaranja.jpg',
+     "image_segunda_animal" : 'lib/images/macacolaranjasegundo.png',
+       "image_terceira_animal" : 'lib/images/macacolaranjaterceiro.jpg',
+},
   ]
 };
 

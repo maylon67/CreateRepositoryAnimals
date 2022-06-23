@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   final buscaAnimal = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    listAnimais = [];
     jsonTest['animais'].forEach(
       (element) => listAnimais.add(Animal.fromJson(element)));
     return Scaffold(
