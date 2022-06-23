@@ -68,7 +68,7 @@ Map<String, dynamic> jsonTest = {
       "populacao_animal": "População: Aprox. 1.000",
       "peso_animal": "Peso: 200kg",
       "sexo_animal": "Sexo: M",
-      "altura_animal": "Altura: De 35 a 60cm",
+      "altura_animal": "Altura: De 35 a 60cm", 
       "tipo_animal": "Tipo Animal: Mamífero",
       "alimentacao_animal": "Herbívoro",
       "nome_cientifico_animal": 'Nome Cientifico: Hominidae',
