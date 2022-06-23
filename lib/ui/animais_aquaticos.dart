@@ -12,7 +12,7 @@ class AnimaisAquaticos extends StatefulWidget {
 }
 
 class _AnimaisAquaticosState extends State<AnimaisAquaticos> {
-  final animaisAquaticos = SobreAnimal.animaisAquaticos;
+  final animaisAquaticos = [];
    PageController pageController = PageController();
    final buscaAnimal = TextEditingController();
   @override

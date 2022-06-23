@@ -12,7 +12,7 @@ class AnimaisAves extends StatefulWidget {
 }
 
 class _AnimaisAvesState extends State<AnimaisAves> {
-  final animaisAves = SobreAnimal.animaisAves;
+  final animaisAves = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

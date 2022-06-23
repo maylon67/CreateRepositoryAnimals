@@ -17,7 +17,7 @@ class Animal{
   String imagemAnimalTerceira='';
   String familiaCientificaAnimal='';
   String nomeCientificoAnimal='';
-
+  String classificacaoAnimal='';
   // aqui incializo as variaveis necessarias pra informa o animal
    Animal(
     this.biomaAnimal,
@@ -34,6 +34,7 @@ class Animal{
     this.imagemAnimalTerceira,
     this.familiaCientificaAnimal,
     this.nomeCientificoAnimal,
+    this.classificacaoAnimal
   );
    Animal.fromJson(Map<String, dynamic> json) {
     biomaAnimal = json["bioma_animal"];
@@ -50,5 +51,6 @@ class Animal{
     imagemAnimalTerceira = json['image_terceira_animal'];
     familiaCientificaAnimal = json['familia_cientifica_animal'];
     nomeCientificoAnimal = json['nome_cientifico_animal'];
+    classificacaoAnimal = json['classificacao_animal'];
   }
 }

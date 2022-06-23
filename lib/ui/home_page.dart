@@ -14,7 +14,6 @@ HomePage ({Key? key}) : super(key: key);
 class _HomePageState extends State<HomePage> {
   PageController pageController = PageController();
   List<Animal> listAnimais = [];
-  final animais = SobreAnimal.tabela;
   final buscaAnimal = TextEditingController();
   @override
   Widget build(BuildContext context) {
@@ -38,16 +37,16 @@ class _HomePageState extends State<HomePage> {
       body: ListView.separated(
           itemBuilder: ((BuildContext context,  indice) {
             return ListTile(
-              leading: Image.asset(animais[indice].imagemAnimal.toString(),cacheHeight: 150,cacheWidth: 150,),
-              title: Text(animais[indice].nomeAnimal.toString(), style: TextStyle(color: colorText),),
-              trailing: Text(animais[indice].tipoAlimentacaoAnimal.toString(), style: TextStyle(color: colorText),),
+              leading: Image.asset(listAnimais[indice].imagemAnimal.toString(),cacheHeight: 150,cacheWidth: 150,),
+              title: Text(listAnimais[indice].nomeAnimal.toString(), style: TextStyle(color: colorText),),
+              trailing: Text(listAnimais[indice].tipoAlimentacaoAnimal.toString(), style: TextStyle(color: colorText),),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (_) => DescricaoAnimais(animais[indice])));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => DescricaoAnimais(listAnimais[indice])));
               },
             );
           }),
           shrinkWrap: true,
-          itemCount: animais.length,
+          itemCount: listAnimais.length,
           separatorBuilder: (_, __) => Divider(
             height: 30,
             thickness: 2.4,

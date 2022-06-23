@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 Map<String, dynamic> jsonTest = {
   "animais": [
     {
+      "classificacao_animal":"terrestre",
       "nome_animal": "Leao",
       "bioma_animal": "Savana",
       "familia_cientifica_animal": "Felidae",
@@ -21,6 +22,7 @@ Map<String, dynamic> jsonTest = {
       'image_terceira_animal': 'images/leaoarvore.jpg'
     },
     {
+      "classificacao_animal":"venenoso",
       "nome_animal": "DragaoDeKomodo",
       "bioma_animal": "Savana",
       "familia_cientifica_animal": " Varanus komodoensis",
@@ -39,7 +41,7 @@ Map<String, dynamic> jsonTest = {
   ]
 };
 
-class SobreAnimal {
+/*class SobreAnimal {
   // observação essa lista abaixo tem o subtipo do construtor Animal por isso ele requer as variaveis que declaramos
   static List<Animal> tabela = [
     Animal(
@@ -232,7 +234,37 @@ class SobreAnimal {
         'lib/images/gir.jpg',
         'lib/images/girafaterceira.jpg',
         'Familia. Cient:Giraffidae',
-        'Nome. Cient:Giraffa')
+        'Nome. Cient:Giraffa'),
+         Animal(
+        'Bioma Desertico',
+        'População: 1.600 especies',
+        'peso:Desconhecido',
+        'macho/femea',
+        'Escorpião',
+        'comprimento:12 á 25cm',
+        'Artropoda',
+        'Carnivoro',
+        'lib/images/escorpiaoprimeiro.png',
+        'lib/images/escorpiaosegundo.png',
+        'lib/images/escorpiaoterceiro.png',
+        'lib/images/escorpiaoquarto.png',
+        'Familia. Cient:Buthidae',
+        'Nome. Cient:Scorpiones'),
+         Animal(
+        'Bioma aquatico',
+        'População:em cerca de 30 especies',
+        'Peso: Em cerca de 900kg',
+        'Macho/Femêa',
+        'Tartaruga Marinha',
+        'de 5,5cm á 2,1 metros de comprimento',
+        'Anfibio',
+        'Herbivoro',
+        'lib/images/tartaruga.png',
+        'lib/images/tartarugasegunda.png',
+        'lib/images/tartarugaprimeira.png',
+        'lib/images/tartarugaterceira.png',
+        'Fam. Cient.:Cheloniidae',
+        'Nome. Cient:Chelonioidea'),
 // inserindo o animal girafa
   ];
   static List<Animal> animaisAquaticos = [
@@ -268,19 +300,19 @@ class SobreAnimal {
         'Nome. Cient:Halichoerus grypus'),
     Animal(
         'Bioma aquatico',
-        'População: 350 a 500 mil de habitantes',
-        'Peso: Em cerca de 150kg',
+        'População:em cerca de 30 especies',
+        'Peso: Em cerca de 900kg',
         'Macho/Femêa',
         'Tartaruga Marinha',
-        'de 1,6 á 1,9 metros de comprimento',
-        'Mamifero',
-        'Carnivoro',
+        'de 5,5cm á 2,1 metros de comprimento',
+        'Anfibio',
+        'Herbivoro',
         'lib/images/tartaruga.png',
-        'lib/images/focaprimeira.jpg',
-        'lib/images/focasegunda.jpg',
-        'lib/images/focaterceira.jpg',
-        'Fam. Cient.:Phocidae',
-        'Nome. Cient:Halichoerus grypus'),
+        'lib/images/tartarugasegunda.png',
+        'lib/images/tartarugaprimeira.png',
+        'lib/images/tartarugaterceira.png',
+        'Fam. Cient.:Cheloniidae',
+        'Nome. Cient:Chelonioidea'),
   ];
   static List<Animal> animaisTerrestres = [
     Animal(
@@ -397,7 +429,7 @@ class SobreAnimal {
         'População:1600 especies',
         'peso:Desconhecido',
         'macho/femea',
-        'nome:escorpião',
+        'Escorpião',
         'comprimento:12 á 25cm',
         'Artropoda',
         'Carnivoro',
@@ -408,4 +440,4 @@ class SobreAnimal {
         'Familia. Cient:Buthidae',
         'Nome. Cient:Scorpiones')
   ];
-}
+}*/

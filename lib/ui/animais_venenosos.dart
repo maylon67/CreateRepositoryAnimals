@@ -13,7 +13,7 @@ class AnimaisPeconhentos extends StatefulWidget {
 }
 
 class _AnimaisPeconhentosState extends State<AnimaisPeconhentos> {
-  final animaisPeconhentos = SobreAnimal.animaisPeconhentos;
+  final animaisPeconhentos = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
