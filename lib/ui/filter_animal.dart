@@ -112,7 +112,7 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
               ],
             ),
             Padding(padding: EdgeInsets.symmetric(
-              vertical: 20,
+              vertical: 3.5,
             )
             ),
             Divider(

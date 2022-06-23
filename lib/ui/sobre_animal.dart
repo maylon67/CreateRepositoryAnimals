@@ -169,6 +169,23 @@ Map<String, dynamic> jsonTest = {
      "image_segunda_animal" : 'lib/images/macacolaranjasegundo.png',
        "image_terceira_animal" : 'lib/images/macacolaranjaterceiro.jpg',
 },
+{
+   "classificacao_animal":"Classificação: Terrestre",
+   "nome_animal":"Camelo",
+    "bioma_animal": 'Bioma desertico',
+    "familia_cientifica_animal":  'Fam. Cient:Camelidae',
+    "populacao_animal":  'População: Em volta de 1,4 milhões', 
+    "peso_animal": 'Peso: Em cerca de 650kg',
+    "sexo_animal":"macho/femea",
+    "altura_animal":'De 1,8 á 2 metros de Altura',
+    "tipo_animal":'Mamifero',
+    "alimentacao_animal":'Herbivoro',
+     "nome_cientifico_animal":'Nome. Cient:Camelus', 
+     "image_animal" :'lib/images/camelo.png',
+      "image_primeira_animal" : 'lib/images/cameloprimeiro.jpg',
+     "image_segunda_animal" : 'lib/images/camelosegundo.jpg',
+       "image_terceira_animal" : 'lib/images/cameloterceiro.jpg',
+},
   ]
 };
 
