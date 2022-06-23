@@ -6,6 +6,8 @@ import 'package:app_demo/ui/sobre_animal.dart';
 import 'package:flutter/material.dart';
 import 'package:app_demo/models/information_animal.dart';
 
+ List<Animal> listAnimais = [];
+
 class HomePage extends StatefulWidget {
 HomePage ({Key? key}) : super(key: key);
   @override
@@ -13,7 +15,6 @@ HomePage ({Key? key}) : super(key: key);
 }
 class _HomePageState extends State<HomePage> {
   PageController pageController = PageController();
-  List<Animal> listAnimais = [];
   final buscaAnimal = TextEditingController();
   @override
   Widget build(BuildContext context) {
