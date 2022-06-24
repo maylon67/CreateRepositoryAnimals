@@ -269,7 +269,23 @@ Map<String, dynamic> jsonTest = {
    "image_terceira_animal" : 'lib/images/escorpiaoquarto.png',
     }, 
     // Inserindo o animal Escorpião
-    
+    {
+     "classificacao_animal":"Classificação: Terrestre" ,
+     "nome_animal":"Tigre",
+     "bioma_animal": 'Bioma: Tropical',
+     "familia_cientifica_animal":'Fam. Cient: Felídeos',
+     "populacao_animal":  'População: 3.900 vivos',
+     "peso_animal": 'Peso: 310kg',
+      "sexo_animal":"macho/femea",
+     "altura_animal":'Tamanho:  1m á 3m de comprimento',
+      "tipo_animal":'Tipo animal: Mamifero',
+      "alimentacao_animal":'Carnivoro',
+     "nome_cientifico_animal":'Nome. Cient:Panthera tigris',
+      "image_animal" :'lib/images/tigre.png',
+   "image_primeira_animal" : 'lib/images/tigreprimeiro.png',
+   "image_segunda_animal" : 'lib/images/tigresegundo.png',
+   "image_terceira_animal" : 'lib/images/tigreterceiro.png',  
+    }
   ]
 };
 
