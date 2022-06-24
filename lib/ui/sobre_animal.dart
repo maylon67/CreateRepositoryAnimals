@@ -21,7 +21,7 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/leaoarv.jpg',
       'image_terceira_animal': 'lib/images/leaoalbino.jpg',
     },
-    //Inserindo o animal Leão
+    // Inserindo o animal Leão
 
     {
       "classificacao_animal":"Classificação: Venenoso",
@@ -40,7 +40,8 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/capivarasegundas.jpg',
       'image_terceira_animal': 'lib/images/capivaraterceiras.jpg'
     },
-    //Inserindo o animal Capivara
+    // Inserindo o animal Capivara
+
     {
       "classificacao_animal":"Classificação: Venenoso",
       "nome_animal": "Dragão de Komodo",
@@ -58,7 +59,7 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/komodosegundo.jpg',
       'image_terceira_animal': 'lib/images/komodoterceiro.png'
     },
-    //Inserindo o animal Dragão de Komodo
+    // Inserindo o animal Dragão de Komodo
 
      {
       "classificacao_animal":"Classificação: Terrestre",
@@ -77,7 +78,7 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/gorilasegundo.png',
       'image_terceira_animal': 'lib/images/gorilaterceiros.jpg'
     },
-    //Inserindp o animal Gorila
+    // Inserindp o animal Gorila
     
      {
       "classificacao_animal":"Classificação: Aquático",
@@ -96,7 +97,7 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/tubaraosalto.jpg',
       'image_terceira_animal': 'lib/images/tub.jpg'
     },
-    //Inserindo o animal Tubarão branco
+    // Inserindo o animal Tubarão branco
 
      {
       "classificacao_animal":"Classificação: Aquático",
@@ -115,7 +116,7 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/ornisegundo.jpg',
       'image_terceira_animal': 'lib/images/orni.jpg',
     },
-    //Inserindo o animal Ornitorrinco
+    // Inserindo o animal Ornitorrinco
 
      {
       "classificacao_animal":"Classificação: Aquático",
@@ -134,11 +135,12 @@ Map<String, dynamic> jsonTest = {
       'image_segunda_animal': 'lib/images/ursopolarsegundo.jpg',
       'image_terceira_animal': 'lib/images/ursopolarterceiro.jpg',
     },
-    //Inserindo o animal Urso polar
-{
+    // Inserindo o animal Urso polar
+
+    {
    "classificacao_animal":"Classificação: Aquatico",
    "nome_animal":"Tartaruga Marinha",
-    "bioma_animal": "Bioma:Aquatico",
+    "bioma_animal": "Bioma: Aquatico",
     "familia_cientifica_animal": " Familia.Cienti:Chelonidae",
     "populacao_animal": "População: Em cerca de 2.000",
     "peso_animal": 'Peso: Em cerca de 900kg',
@@ -146,15 +148,17 @@ Map<String, dynamic> jsonTest = {
     "altura_animal": 'de 5,5cm á 2,1 metros de comprimento',
     "tipo_animal":'Anfibio',
     "alimentacao_animal":'Herbivoro',
-     "nome_cientifico_animal":  'Nome. Cient:Chelonioidea',
-     "image_animal" :'lib/images/tartaruga.png',
-      "image_primeira_animal" : 'lib/images/tartarugasegunda.png',
-     "image_segunda_animal" : 'lib/images/tartarugaprimeira.png',
-       "image_terceira_animal" : 'lib/images/tartarugaterceira.png',
-},
-{
-   "classificacao_animal":"Classificação: Terrestre",
-   "nome_animal":"Orangotango",
+    "nome_cientifico_animal":  'Nome. Cient:Chelonioidea',
+    "image_animal" :'lib/images/tartaruga.png',
+    "image_primeira_animal" : 'lib/images/tartarugasegunda.png',
+    "image_segunda_animal" : 'lib/images/tartarugaprimeira.png',
+    "image_terceira_animal" : 'lib/images/tartarugaterceira.png',
+    },
+    // Inserindo o animal Tartaruga marinha
+
+    {
+    "classificacao_animal":"Classificação: Terrestre",
+    "nome_animal":"Orangotango",
     "bioma_animal": "Bioma:Floresta Tropicais",
     "familia_cientifica_animal": " Familia.Cienti:Hominidae",
     "populacao_animal":  'População: Em cerca de 100 mil',
@@ -163,15 +167,17 @@ Map<String, dynamic> jsonTest = {
     "altura_animal": 'Tamanho: Pode atingir ate 1,8 metros',
     "tipo_animal":'Mamifero',
     "alimentacao_animal":'Herbivoro',
-     "nome_cientifico_animal":  'Nome. Cient:Pongo',
-     "image_animal" :'lib/images/orangotango.png',
-      "image_primeira_animal" : 'lib/images/macacolaranja.jpg',
-     "image_segunda_animal" : 'lib/images/macacolaranjasegundo.png',
-       "image_terceira_animal" : 'lib/images/macacolaranjaterceiro.jpg',
-},
-{
-   "classificacao_animal":"Classificação: Terrestre",
-   "nome_animal":"Camelo",
+    "nome_cientifico_animal":  'Nome. Cient:Pongo',
+    "image_animal" :'lib/images/orangotango.png',
+    "image_primeira_animal" : 'lib/images/macacolaranja.jpg',
+    "image_segunda_animal" : 'lib/images/macacolaranjasegundo.png',
+    "image_terceira_animal" : 'lib/images/macacolaranjaterceiro.jpg',
+    },
+    // Inserindo o animal Orangotango
+
+    {
+    "classificacao_animal":"Classificação: Terrestre",
+    "nome_animal":"Camelo",
     "bioma_animal": 'Bioma desertico',
     "familia_cientifica_animal":  'Fam. Cient:Camelidae',
     "populacao_animal":  'População: Em volta de 1,4 milhões', 
@@ -180,12 +186,90 @@ Map<String, dynamic> jsonTest = {
     "altura_animal":'De 1,8 á 2 metros de Altura',
     "tipo_animal":'Mamifero',
     "alimentacao_animal":'Herbivoro',
-     "nome_cientifico_animal":'Nome. Cient:Camelus', 
-     "image_animal" :'lib/images/camelo.png',
-      "image_primeira_animal" : 'lib/images/cameloprimeiro.jpg',
-     "image_segunda_animal" : 'lib/images/camelosegundo.jpg',
-       "image_terceira_animal" : 'lib/images/cameloterceiro.jpg',
-},
+    "nome_cientifico_animal":'Nome. Cient:Camelus', 
+    "image_animal" :'lib/images/camelo.png',
+    "image_primeira_animal" : 'lib/images/cameloprimeiro.jpg',
+    "image_segunda_animal" : 'lib/images/camelosegundo.jpg',
+    "image_terceira_animal" : 'lib/images/cameloterceiro.jpg',
+    },
+    // Inserindo o animal Camelo
+
+    {
+   "classificacao_animal":"Classificação: Terrestre",
+   "nome_animal":"Alce",
+   "bioma_animal": 'Bioma: Floresta Temperada e Taiga',
+   "familia_cientifica_animal":  'Fam. Cient: Cervídeos',
+   "populacao_animal":  'População: Em cerca de 10 mil', 
+   "peso_animal": 'Peso: Aproxi em 700kg',
+   "sexo_animal":"macho/femea",
+   "altura_animal":'Altura: 2,1 metros de altura',
+   "tipo_animal":'Tipo animal: Mamifero',
+   "alimentacao_animal":'Herbivoro',
+   "nome_cientifico_animal":'Nome. Cient: Alces alces', 
+   "image_animal" :'lib/images/alce.png',
+   "image_primeira_animal" : 'lib/images/alceprimeiro.jpg',
+   "image_segunda_animal" : 'lib/images/alcesegundo.jpg',
+   "image_terceira_animal" : 'lib/images/alceterceiro.jpg',
+    }, 
+    // Inserindo o animal Alce
+
+     {
+   "classificacao_animal":"Classificação: Terrestre",
+   "nome_animal":"Foca cinzenta",
+   "bioma_animal": 'Bioma: Aquático',
+   "familia_cientifica_animal":  'Fam. Cient: Phocidae',
+   "populacao_animal":  'População: 350 a 500 mil de habitantes', 
+   "peso_animal": 'Peso: Em cerca de 150kg',
+   "sexo_animal":"macho/femea",
+   "altura_animal":'Tamanho: De 1,6 á 1,9m de comprimento',
+   "tipo_animal":'Tipo animal: Mamifero',
+   "alimentacao_animal":'Carnivoro',
+   "nome_cientifico_animal":'Nome. Cient: Alces alces', 
+   "image_animal" :'lib/images/foca.png',
+   "image_primeira_animal" : 'lib/images/focaprimeira.jpg',
+   "image_segunda_animal" : 'lib/images/focasegunda.jpg',
+   "image_terceira_animal" : 'lib/images/focaterceira.jpg',
+    }, 
+    // Inserindo o animal Foca cinzenta
+
+     {
+   "classificacao_animal":"Classificação: Terrestre",
+   "nome_animal":"Girafa",
+   "bioma_animal": 'Bioma: Savanas',
+   "familia_cientifica_animal":  'Fam. Cient: Giraffidae',
+   "populacao_animal":  'População: Em vola de 117 mil', 
+   "peso_animal": 'Peso:Em volta de 1,9 toneladas',
+   "sexo_animal":"macho/femea",
+   "altura_animal":'Altura:  5,7m',
+   "tipo_animal":'Tipo animal: Mamifero',
+   "alimentacao_animal":'Herbivoro',
+   "nome_cientifico_animal":'Nome. Cient: Giraffa', 
+   "image_animal" :'lib/images/girafa.png',
+   "image_primeira_animal" : 'lib/images/gira.jpg',
+   "image_segunda_animal" : 'lib/images/gir.jpg',
+   "image_terceira_animal" : 'lib/images/girafaterceira.jpg',
+    }, 
+    // Inserindo o animal Girafa
+
+    {
+   "classificacao_animal":"Classificação: Terrestre",
+   "nome_animal":"Escorpião",
+   "bioma_animal": 'Bioma: Desertico',
+   "familia_cientifica_animal":  'Fam. Cient: Buthidae',
+   "populacao_animal":  'População: 2.200 especies', 
+   "peso_animal": 'Peso: Desconhecido',
+   "sexo_animal":"macho/femea",
+   "altura_animal":'Tamanho:  12 á 25cm de comprimento',
+   "tipo_animal":'Tipo animal: Artropoda',
+   "alimentacao_animal":'Carnivoro',
+   "nome_cientifico_animal":'Nome. Cient: Scorpiones', 
+   "image_animal" :'lib/images/escorpiaoprimeiro.png',
+   "image_primeira_animal" : 'lib/images/escorpiaosegundo.png',
+   "image_segunda_animal" : 'lib/images/escorpiaoterceiro.png',
+   "image_terceira_animal" : 'lib/images/escorpiaoquarto.png',
+    }, 
+    // Inserindo o animal Escorpião
+    
   ]
 };
 
