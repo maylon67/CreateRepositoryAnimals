@@ -11,7 +11,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": "Famlia.Cientí: Felidae",
       "populacao_animal": "População: 20.000",
       "peso_animal": "Peso: 190kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo: Macho/Fêmea",
       "altura_animal": "Altura: De 1,37 a 2m",
       "tipo_animal": "Tipo do Animal: Mamífero",
       "alimentacao_animal": "Carnívoro",
@@ -30,7 +30,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": "Fami.Cienti: Hydrochoerus hydrochaeris",
       "populacao_animal": "População: Desconhecida",
       "peso_animal": "Peso: De 36 a 66kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo:  Macho/Fêmea",
       "altura_animal": "Altura: De 54 á  64cm",
       "tipo_animal": "Tipo Animal: Mamífero roedor",
       "alimentacao_animal": "Herbívoro",
@@ -49,7 +49,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": " Familia.Cienti: Varanus komodoensis",
       "populacao_animal": "População: 1.830",
       "peso_animal": " Peso: 160kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo: Macho/Fêmea",
       "altura_animal": "Altura: 40cm de Altura",
       "tipo_animal": "Tipo Animal: Reptil",
       "alimentacao_animal": "Carnívoro",
@@ -68,7 +68,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": " Familia.Cienti: Gorila",
       "populacao_animal": "População: Aprox. 1.000",
       "peso_animal": "Peso: 200kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo: Macho/Fêmea",
       "altura_animal": "Altura: De 35 a 60cm", 
       "tipo_animal": "Tipo Animal: Mamífero",
       "alimentacao_animal": "Herbívoro",
@@ -87,7 +87,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": " Familia.Cienti: Lamnidae",
       "populacao_animal": "População:  Aprox. 3.500",
       "peso_animal": "Peso: De 520 a 1.100kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo: Macho/Fêmea",
       "altura_animal": "Tamanho: De 4 a 6m de comprimento",
       "tipo_animal": "Tipo Animal: Mamífero",
       "alimentacao_animal": "Carnívoro",
@@ -106,7 +106,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": " Familia.Cienti: Anatinus",
       "populacao_animal": "População: 200 mil",
       "peso_animal": "Peso: 2,4kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo: Macho/Fêmea",
       "altura_animal": "Tamanho: 50cm de comprimento",
       "tipo_animal": "Tipo Animal: Mamífero",
       "alimentacao_animal": "Carnívoro",
@@ -125,7 +125,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal": " Familia.Cienti: Ursidae",
       "populacao_animal": "População: Em cerca de 25.000",
       "peso_animal": "Peso: 450kg",
-      "sexo_animal": "Sexo: M",
+      "sexo_animal": "Sexo: Macho/Fêmea",
       "altura_animal": "Altura: Aprox. 3 metros de altura",
       "tipo_animal": "Tipo Animal: Mamífero",
       "alimentacao_animal": "Carnívoro",
@@ -144,7 +144,7 @@ Map<String, dynamic> jsonTest = {
     "familia_cientifica_animal": " Familia.Cienti:Chelonidae",
     "populacao_animal": "População: Em cerca de 2.000",
     "peso_animal": 'Peso: Em cerca de 900kg',
-    "sexo_animal":"macho/femea",
+    "sexo_animal":"Sexo: Macho/Fêmea",
     "altura_animal": 'de 5,5cm á 2,1 metros de comprimento',
     "tipo_animal":'Anfibio',
     "alimentacao_animal":'Herbivoro',
@@ -163,7 +163,7 @@ Map<String, dynamic> jsonTest = {
     "familia_cientifica_animal": " Familia.Cienti:Hominidae",
     "populacao_animal":  'População: Em cerca de 100 mil',
     "peso_animal":  'Peso: Em cerca de 100kg',
-    "sexo_animal":"macho/femea",
+    "sexo_animal":"Sexo: Macho/Fêmea",
     "altura_animal": 'Tamanho: Pode atingir ate 1,8 metros',
     "tipo_animal":'Mamifero',
     "alimentacao_animal":'Herbivoro',
@@ -182,7 +182,7 @@ Map<String, dynamic> jsonTest = {
     "familia_cientifica_animal":  'Fam. Cient:Camelidae',
     "populacao_animal":  'População: Em volta de 1,4 milhões', 
     "peso_animal": 'Peso: Em cerca de 650kg',
-    "sexo_animal":"macho/femea",
+    "sexo_animal":"Sexo: Macho/Fêmea",
     "altura_animal":'De 1,8 á 2 metros de Altura',
     "tipo_animal":'Mamifero',
     "alimentacao_animal":'Herbivoro',
@@ -201,7 +201,7 @@ Map<String, dynamic> jsonTest = {
    "familia_cientifica_animal":  'Fam. Cient: Cervídeos',
    "populacao_animal":  'População: Em cerca de 10 mil', 
    "peso_animal": 'Peso: Aproxi em 700kg',
-   "sexo_animal":"macho/femea",
+   "sexo_animal":"Sexo: Macho/Fêmea",
    "altura_animal":'Altura: 2,1 metros de altura',
    "tipo_animal":'Tipo animal: Mamifero',
    "alimentacao_animal":'Herbivoro',
@@ -220,7 +220,7 @@ Map<String, dynamic> jsonTest = {
    "familia_cientifica_animal":  'Fam. Cient: Phocidae',
    "populacao_animal":  'População: 350 a 500 mil de habitantes', 
    "peso_animal": 'Peso: Em cerca de 150kg',
-   "sexo_animal":"macho/femea",
+   "sexo_animal":"Sexo: Macho/Fêmea",
    "altura_animal":'Tamanho: De 1,6 á 1,9m de comprimento',
    "tipo_animal":'Tipo animal: Mamifero',
    "alimentacao_animal":'Carnivoro',
@@ -239,7 +239,7 @@ Map<String, dynamic> jsonTest = {
    "familia_cientifica_animal":  'Fam. Cient: Giraffidae',
    "populacao_animal":  'População: Em vola de 117 mil', 
    "peso_animal": 'Peso:Em volta de 1,9 toneladas',
-   "sexo_animal":"macho/femea",
+   "sexo_animal":"Sexo: Macho/Fêmea",
    "altura_animal":'Altura:  5,7m',
    "tipo_animal":'Tipo animal: Mamifero',
    "alimentacao_animal":'Herbivoro',
@@ -258,7 +258,7 @@ Map<String, dynamic> jsonTest = {
    "familia_cientifica_animal":  'Fam. Cient: Buthidae',
    "populacao_animal":  'População: 2.200 especies', 
    "peso_animal": 'Peso: Desconhecido',
-   "sexo_animal":"macho/femea",
+   "sexo_animal":"Sexo: Macho/Fêmea",
    "altura_animal":'Tamanho:  12 á 25cm de comprimento',
    "tipo_animal":'Tipo animal: Artropoda',
    "alimentacao_animal":'Carnivoro',
@@ -269,6 +269,7 @@ Map<String, dynamic> jsonTest = {
    "image_terceira_animal" : 'lib/images/escorpiaoquarto.png',
     }, 
     // Inserindo o animal Escorpião
+
     {
       "classificacao_animal":"Classificação: Terrestre" ,
       "nome_animal":"Tigre",
@@ -276,7 +277,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal":'Fam. Cient: Felídeos',
       "populacao_animal":  'População: 3.900 habitantes',
       "peso_animal": 'Peso: 310kg',
-      "sexo_animal":"macho/femea",
+      "sexo_animal":"Sexo: Macho/Fêmea",
       "altura_animal":'Tamanho:  1m á 3m de comprimento',
       "tipo_animal":'Tipo animal: Mamifero',
       "alimentacao_animal":'Carnivoro',
@@ -286,6 +287,8 @@ Map<String, dynamic> jsonTest = {
       "image_segunda_animal" : 'lib/images/tigresegundo.png',
       "image_terceira_animal" : 'lib/images/tigreterceiro.png',  
     },
+    // Inserindo o animal Tigre
+
     {
       "classificacao_animal":"Classificação: Terrestre" ,
       "nome_animal":"Onça Pintada",
@@ -293,7 +296,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal":'Fam. Cient: Felídeos',
       "populacao_animal":'População: 173 mil habitantes',
       "peso_animal": 'Peso: 56 á 96kg',
-      "sexo_animal":"macho/femea",
+      "sexo_animal":"Sexo: Macho/Fêmea",
       "altura_animal":'Tamanho: 1,1m á 1,8m de comprimento',
       "tipo_animal":'Tipo animal: Mamifero',
       "alimentacao_animal":'Carnivoro',
@@ -303,6 +306,8 @@ Map<String, dynamic> jsonTest = {
       "image_segunda_animal":'lib/images/oncasegunda.png',
       "image_terceira_animal":'lib/images/oncaterceira.png',  
     },
+    // Inserindo o animal Onça pintada
+
     {
       "classificacao_animal":"Classificação: Terrestre" ,
       "nome_animal":"Elefante",
@@ -310,7 +315,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal":'Fam. Cient: Elephantidae',
       "populacao_animal":'População:26 milhões de habitantes',
       "peso_animal": 'Peso: 4 toneladas',
-      "sexo_animal":"macho/femea",
+      "sexo_animal":"Sexo: Macho/Fêmea",
       "altura_animal":'Tamanho: 5,5m á 6,5m de comprimento',
       "tipo_animal":'Tipo animal: Mamifero',
       "alimentacao_animal":'Herbivoro',
@@ -319,7 +324,9 @@ Map<String, dynamic> jsonTest = {
       "image_primeira_animal":'lib/images/elefanteprimeiro.png',
       "image_segunda_animal":'lib/images/elefantesegundo.png',
       "image_terceira_animal":'lib/images/elefanteterceiro.png',  
-    }, 
+    },
+    // Inserindo o animal Elefante
+     
     {
       "classificacao_animal":"Classificação: Terrestre" ,
       "nome_animal":"Puma",
@@ -327,7 +334,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal":'Fam. Cient:Felidae',
       "populacao_animal":'População: 4 mil de habitantes',
       "peso_animal": 'Peso: 100kg',
-      "sexo_animal":"macho/femea",
+      "sexo_animal":"Sexo: Macho/Fêmea",
       "altura_animal":'Tamanho: 2,4m de comprimento',
       "tipo_animal":'Tipo animal: Mamifero',
       "alimentacao_animal":'Carnivoro',
@@ -336,7 +343,8 @@ Map<String, dynamic> jsonTest = {
       "image_primeira_animal":'lib/images/pumaprimeiro.png',
       "image_segunda_animal":'lib/images/pumasegundo.png',
       "image_terceira_animal":'lib/images/pumaprimeiro.png',  
-    }, 
+    },
+    // Inserindo o animal Puma 
 
     {
       "classificacao_animal":"Classificação: Terrestre" ,
@@ -345,7 +353,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal":'Fam. Cient: Falconidae',
       "populacao_animal":'População: Mais de 60 especies',
       "peso_animal": 'Peso: 1,5kg',
-      "sexo_animal":"macho/femea",
+      "sexo_animal":"Sexo: Macho/Fêmea",
       "altura_animal":'Tamanho:53cm de comprimento',
       "tipo_animal":'Tipo animal: Mamifero',
       "alimentacao_animal":'Carnivoro',
@@ -355,6 +363,8 @@ Map<String, dynamic> jsonTest = {
       "image_segunda_animal":'lib/images/falcaosegundo.png',
       "image_terceira_animal":'lib/images/falcaoprimeiro.png',  
     }, 
+    // Inserindo o animal Falcão peregrino
+
     {
       "classificacao_animal":"Classificação:Aquatico" ,
       "nome_animal":"Baleia Orca",
@@ -362,7 +372,7 @@ Map<String, dynamic> jsonTest = {
       "familia_cientifica_animal":'Fam. Cient: Delphinidade',
       "populacao_animal":'População:15 mil de habitantes',
       "peso_animal": 'Peso: 4 toneladas',
-      "sexo_animal":"macho/femea",
+      "sexo_animal":"Sexo: Macho/Fêmea",
       "altura_animal":'Tamanho: 6,0m á 8,0m de comprimento',
       "tipo_animal":'Tipo animal: Mamifero',
       "alimentacao_animal":'Carnivoro',
@@ -372,6 +382,7 @@ Map<String, dynamic> jsonTest = {
       "image_segunda_animal":'lib/images/baleiaorcasegunda.png',
       "image_terceira_animal":'lib/images/baleiaorcaprimeira.png',  
     },
+    // Inserindo o animal Baleia orca
 
   ]
 };

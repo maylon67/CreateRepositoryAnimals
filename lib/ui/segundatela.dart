@@ -113,6 +113,18 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
               SizedBox(
                 height: 7.5,
                 ),
+                 Divider(
+                  height: 0,
+                   thickness:1.4,
+                color: corPadraoApp,
+                ),
+                SizedBox(
+                  height: 7.5,
+                ),
+                Text(widget.animal.sexoAnimal, textAlign: TextAlign.start, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.6,color: corPadraoApp),),
+              SizedBox(
+                height: 7.5,
+                ),
                 Divider(
                   height: 0,
                    thickness:1.4,
