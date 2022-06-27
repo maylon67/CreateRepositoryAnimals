@@ -41,6 +41,7 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
           //  mainAxisSize: MainAxisSize.min,
           //  crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            Padding(padding: EdgeInsets.symmetric(vertical: 10)),
             SizedBox(
               width: 380,
               child: Form(
@@ -61,7 +62,7 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
                         enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
                           color: corFundoImage,
-                        )),
+                        ),),
                         focusedBorder: UnderlineInputBorder(
                           borderSide: BorderSide(
                             color: corPadraoApp,
@@ -75,7 +76,7 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
             ),
             Padding(padding: EdgeInsets.symmetric(
               vertical: 20,
-            ) 
+            ), 
             ),
             ExpansionTile(
               leading: Icon(Icons.info),
