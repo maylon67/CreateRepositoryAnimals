@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
           separatorBuilder: (_, __) => Divider(
             height: 30,
             thickness: 2.4,
-            color: Color(0xFF3bde26),
+            color: corPadraoApp,
           ),
         ),
     );

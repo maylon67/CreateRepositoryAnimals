@@ -119,7 +119,7 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
             Divider(
                height: 30,
             thickness: 3.3,
-            color: Color.fromARGB(255, 9, 210, 49),
+            color: corPadraoApp,
             ),
              ListView.separated(
               physics: NeverScrollableScrollPhysics(),
@@ -138,7 +138,7 @@ class _FiltrarAnimalState extends State<FiltrarAnimal> {
           separatorBuilder: (_, __) => Divider(
             height: 30,
             thickness: 2.4,
-            color: Color(0xFF3bde26),
+            color: corPadraoApp,
           ),
         ),
           ],

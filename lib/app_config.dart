@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-final Color corFundoImage = Color.fromARGB(255,7, 181, 7);
-final Color corPadraoApp = Color.fromARGB(255, 117, 239, 11);
+final Color corFundoImage = Color.fromARGB(255, 8, 83, 149);
+final Color corPadraoApp = Color.fromARGB(255, 12, 123, 234);
 final Color corDestackApp = Color.fromARGB(0, 0, 0, 0);
-final Color colorAppBar = Color.fromARGB(255, 93, 184, 13);
+final Color colorAppBar = Color.fromARGB(255, 13, 97, 231);
 final TextStyle corEstilo = TextStyle(
   fontSize: 23,
   color: corPadraoApp,

@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:app_demo/app_config.dart';
 import 'package:app_demo/ui/filter_animal.dart';
 import 'package:app_demo/ui/home_page.dart';
 import 'package:app_demo/ui/localizition.dart';
@@ -36,7 +37,7 @@ class _MainPageState extends State<MainPage> {
         unselectedFontSize: 0,
         selectedFontSize: 0,
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Color.fromARGB(255, 117, 239, 11),
+        backgroundColor: corPadraoApp,
         onTap: onTap,
         currentIndex: currentIndex,
         selectedItemColor: Color.fromARGB(221, 0, 0, 0),
