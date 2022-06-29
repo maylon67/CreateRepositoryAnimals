@@ -1,5 +1,8 @@
 import 'package:app_demo/app_config.dart';
+import 'package:app_demo/ui/edit_perfil.dart';
+import 'package:app_demo/ui/notificacoes.dart';
 import 'package:app_demo/ui/setings_animais.dart';
+import 'package:app_demo/ui/settings_sound.dart';
 import 'package:flutter/material.dart';
 
 class ConfiguracoesConta extends StatefulWidget {
@@ -37,29 +40,34 @@ class _ConfiguracoesContaState extends State<ConfiguracoesConta> {
               height: 0,
               thickness: 1.4,
             ),
-            Row(
-              children: [
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                  child: Text(
-                    'Editar perfil',
-                    style: TextStyle(
-                      fontSize: 29,
-                      color: corPadraoApp,
-                      fontWeight: FontWeight.bold,
+            GestureDetector(
+              onTap: () => {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => EditarPerfil(),))
+              },
+              child: Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                    child: Text(
+                      'Editar perfil',
+                      style: TextStyle(
+                        fontSize: 29,
+                        color: corPadraoApp,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
-                ),
-                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
-                Padding(
-                  padding: const EdgeInsets.only(left: 76.5),
-                  child: Icon(
-                    Icons.manage_accounts_rounded,
-                    color: corPadraoApp,
-                    size: 49,
+                  Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 76.5),
+                    child: Icon(
+                      Icons.manage_accounts_rounded,
+                      color: corPadraoApp,
+                      size: 49,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
              Divider(
                   height: 0,
@@ -298,29 +306,34 @@ class _ConfiguracoesContaState extends State<ConfiguracoesConta> {
                   thickness: 2.1,
                   color: corPadraoApp,
              ),
-            Row(
-              children: [
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                  child: Text(
-                  'Notificações',
-                    style: TextStyle(
-                      fontSize: 29,
-                      color: corPadraoApp,
-                      fontWeight: FontWeight.bold,
+            GestureDetector(
+               onTap: () => {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => Notificacoes(),))
+                    },
+              child: Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                    child: Text(
+                    'Notificações',
+                      style: TextStyle(
+                        fontSize: 29,
+                        color: corPadraoApp,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
-                ),
-                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
-                Padding(
-                  padding: const EdgeInsets.only(left: 44.7),
-                  child: Icon(
-                    Icons.notifications_on_rounded,
-                    color: corPadraoApp,
-                    size: 55,
+                  Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 44.7),
+                    child: Icon(
+                      Icons.notifications_on_rounded,
+                      color: corPadraoApp,
+                      size: 55,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
             Divider(
               height: 0,
@@ -356,27 +369,32 @@ class _ConfiguracoesContaState extends State<ConfiguracoesConta> {
                   thickness: 2.1,
                   color: corPadraoApp,
             ),
-          Row(
-              children: [
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                  child: Text(
-                  'Configurar Som',
-                    style: TextStyle(
-                      fontSize: 29,
-                      color: corPadraoApp,
-                      fontWeight: FontWeight.bold,
+          GestureDetector(
+             onTap: () => {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => SomConfigPage(),))
+                    },
+            child: Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                    child: Text(
+                    'Configurar Som',
+                      style: TextStyle(
+                        fontSize: 29,
+                        color: corPadraoApp,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
-                ),
-                Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
-                   Icon(
-                    Icons.audiotrack_rounded,
-                    color: corPadraoApp,
-                    size: 55,
-                  ),
-              ],
-            ),          
+                  Padding(padding: EdgeInsets.symmetric(horizontal: 25)),
+                     Icon(
+                      Icons.audiotrack_rounded,
+                      color: corPadraoApp,
+                      size: 55,
+                    ),
+                ],
+              ),
+          ),          
           ],
         ),
       ),
