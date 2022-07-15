@@ -8,7 +8,7 @@ import 'package:app_demo/models/information_animal.dart';
 
  List<Animal> listAnimais = [];
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatefulWidget { 
 HomePage ({Key? key}) : super(key: key);
   @override
   State<HomePage> createState() => _HomePageState();
