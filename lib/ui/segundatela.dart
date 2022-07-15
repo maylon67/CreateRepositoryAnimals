@@ -29,6 +29,7 @@ class _DescricaoAnimaisState extends State<DescricaoAnimais> {
             color: colorAppBar,
           )
         ),
+        foregroundColor: corPadraoApp,
         ),
         body: SingleChildScrollView(
           child: Column(

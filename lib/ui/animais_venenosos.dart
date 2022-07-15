@@ -30,6 +30,7 @@ class _AnimaisPeconhentosState extends State<AnimaisPeconhentos> {
             color: colorAppBar,
           ),
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: ListView.separated(itemBuilder:  ((BuildContext context,  indice) {
             return ListTile(

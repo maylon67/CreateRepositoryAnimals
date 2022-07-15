@@ -24,6 +24,7 @@ class _AnimaisTerrestresState extends State<AnimaisTerrestres> {
         shape: UnderlineInputBorder(
           borderSide: BorderSide(color: corPadraoApp),
         ),
+        foregroundColor: corPadraoApp,
       ),
 body: ListView.separated(itemBuilder:  ((BuildContext context,  indice) {
             return ListTile(

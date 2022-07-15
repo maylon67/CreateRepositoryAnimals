@@ -26,6 +26,7 @@ class _SomConfigPageState extends State<SomConfigPage> {
             color: colorAppBar,
           ),
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -41,7 +42,7 @@ class _SomConfigPageState extends State<SomConfigPage> {
               children: [
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                  child: Text('Volume do som',  
+                  child: Text('Volume de mídia',  
                         style: TextStyle(
                         fontSize: 29,
                         color: corPadraoApp,

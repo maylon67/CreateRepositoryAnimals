@@ -27,6 +27,7 @@ class _AlterarEmailState extends State<AlterarEmail> {
             color: colorAppBar,
           )
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: Container(
         child: Column(

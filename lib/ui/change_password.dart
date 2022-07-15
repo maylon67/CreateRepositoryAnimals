@@ -26,6 +26,7 @@ class _AlterarSenhaState extends State<AlterarSenha> {
             color: colorAppBar,
           )
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: Container(
         child: Column(

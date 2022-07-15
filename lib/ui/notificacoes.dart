@@ -26,6 +26,7 @@ class _NotificacoesState extends State<Notificacoes> {
             color: colorAppBar,
           ),
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: SingleChildScrollView(
         child: Column(

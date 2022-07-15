@@ -26,6 +26,7 @@ class _EditarPerfilState extends State<EditarPerfil> {
             color: colorAppBar,
           ),
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -29,6 +29,7 @@ class _AnimaisAvesState extends State<AnimaisAves> {
             color: colorAppBar,
           ),
         ),
+        foregroundColor: corPadraoApp,
       ),
       body: ListView.separated(itemBuilder:  ((BuildContext context,  indice) {
             return ListTile(
